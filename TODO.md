@@ -17,3 +17,9 @@ Look at
 # Sublime Text
 
 * Colours (use Solarized)
+
+
+## Other stuff
+
+* Have all (active) github (and other) repos checked out in the correct place
+	* Maybe use chef for updating all of them too?
