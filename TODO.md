@@ -21,6 +21,15 @@ Look at
 * Colours (use Solarized)
 
 
+## Network stuff
+
+* Use dnsmasq as local caching DNS server 
+  * Use ncutil for setting localhost as DNS server (works on Lion??)
+  * Write DNS servers from DHCP into /usr/local/etc/resolv.conf that dnsmasq uses
+    * DNS servers from ipconfig getpacket <interface, eg en0>
+    * Look at crankd.py for running a script for writing DNS servers on each network change
+
+
 ## Other stuff
 
 * Have all (active) github (and other) repos checked out in the correct place
