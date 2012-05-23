@@ -28,6 +28,7 @@ Look at
   * Write DNS servers from DHCP into /usr/local/etc/resolv.conf that dnsmasq uses
     * DNS servers from ipconfig getpacket <interface, eg en0>
     * Look at crankd.py for running a script for writing DNS servers on each network change
+      An example: http://glarizza.posterous.com/using-crankd-to-react-to-network-events
 
 
 ## Other stuff
