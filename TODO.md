@@ -6,6 +6,7 @@ Look at
 * http://macnix.blogspot.com/2011/07/change-mac-os-x-107-lion-ical-skin-to.html
 * https://github.com/pivotal/pivotal_workstation
 * https://github.com/josh/osx-cookbooks
+* https://github.com/philips/ghar - So dotfiles can be shared on GitHub. Integrate into chef, maybe? 
 
 
 ## Must include configuration for:
