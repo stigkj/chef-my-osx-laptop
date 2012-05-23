@@ -35,3 +35,7 @@ Look at
 * Have all (active) github (and other) repos checked out in the correct place
 	* Maybe use chef for updating all of them too?
 * Nice OSX defaults: https://github.com/mathiasbynens/dotfiles/blob/master/.osx
+* chefify all packages installed
+  * brew
+  * python (pip)
+  * ruby (gem)
