@@ -9,3 +9,5 @@ Installation log for chef'ed Lion:
 6. Setup chef-client against Hosted Chef
    - download client.rb and stigkj-validator.pem
    - put these into /etc/chef
+
+Alternatively, run something like this: https://gist.github.com/2919305
