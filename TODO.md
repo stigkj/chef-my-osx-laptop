@@ -40,3 +40,4 @@ Look at
   * brew
   * python (pip)
   * ruby (gem)
+  * Scala's conscript/giter8
