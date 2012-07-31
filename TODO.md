@@ -12,13 +12,10 @@ Look at
 ## Must include configuration for:
 
 # Intellij
-
-* Colours (use Solarized)
 * Font (get a great programmer's font)
 
 # Sublime Text
-
-* Colours (use Solarized)
+# For colour schemes use Solarized or GH/chriskempson/tomorrow-theme
 
 
 ## Network stuff
@@ -33,6 +30,10 @@ Look at
 
 ## Other stuff
 
+* download Xcode command line tools from Apple using adc_download.sh
+  * http://atastypixel.com/blog/resuming-adc-downloads-cos-safari-sucks/
+  * http://adcdownload.apple.com/Developer_Tools/command_line_tools_os_x_lion_for_xcode__july_2012/xcode44cltools_10_76938107a.dmg
+  * put shell script on its own project on GitHub? Contact author, check if he has a GH-page
 * Have all (active) github (and other) repos checked out in the correct place
 	* Maybe use chef for updating all of them too?
 * Nice OSX defaults: https://github.com/mathiasbynens/dotfiles/blob/master/.osx
@@ -41,3 +42,11 @@ Look at
   * python (pip)
   * ruby (gem)
   * Scala's conscript/giter8
+* Chrome stuff
+  * Setup as default browser; look at duti.sf.net
+  * setup plugins automatically (sync plist to Dropbox?)
+  * sync open tabs through Dropbox?
+  * find open tabs from Time Machine backup
+* Startup locate as service
+  * sudo launchctl load -w /System/Library/LaunchDaemons/com.apple.locate.plist
+
