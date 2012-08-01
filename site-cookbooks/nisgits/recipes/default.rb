@@ -1,4 +1,6 @@
 package 'zsh'
+package 'lesspipe'
+package 'groovy'
 
 user node[:nisgits][:user] do
   shell '/usr/local/bin/zsh'
