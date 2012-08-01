@@ -43,6 +43,11 @@ link "#{ENV['HOME']}/bin/subl" do
   to '/Applications/Sublime Text 2.app/Contents/SharedSupport/bin/subl'
 end
 
+dmg_package 'Leda-IU-120.152' do
+  source 'http://download.jetbrains.com/idea/ideaIU-120.152.dmg'  
+  destination '/Applications/Development/'
+end
+
 link "#{ENV['HOME']}/.ssh" do
   to "#{ENV['HOME']}/Dropbox/.ssh"
 end
