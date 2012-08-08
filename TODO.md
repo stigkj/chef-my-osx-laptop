@@ -50,7 +50,8 @@ Look at
   * ruby (gem)
   * Scala's conscript/giter8
 * Chrome stuff
-  * Setup as default browser; look at duti.sf.net
+  * Setup as default browser; look at duti.sf.net and default_handlers.duti in nisgits cookbook
+    Also look at http://krypted.com/mac-os-x/lsregister-associating-file-types-in-mac-os-x/
   * setup plugins automatically (sync plist to Dropbox?)
   * sync open tabs through Dropbox?
   * find open tabs from Time Machine backup

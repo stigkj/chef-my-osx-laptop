@@ -1,0 +1,16 @@
+# Set Safari as the default handler for HTML files,
+# set TextEdit as the default handler for files with .patch extensions,
+# and set Firefox as the default handler for feed:// URLs.
+#
+# blank lines and lines beginning with a '#' are ignored
+#
+# bundle id 			UTI/ext/MIME type	role
+
+com.google.chrome		public.html			all
+com.google.chrome		public.xhtml		all
+
+# bundle id				URL scheme
+
+com.google.chrome		http
+com.google.chrome		https
+com.google.chrome		mailto
