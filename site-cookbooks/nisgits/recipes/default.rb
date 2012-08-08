@@ -7,6 +7,11 @@ node['rbenv']['user_installs'] = [
   { 'user'    => 'gits',
     'rubies'  => ['1.9.3-p194'],
     'global'  => '1.9.3-p194',
+    'gems'    => {
+      '1.9.3-p194' => [
+        { 'name' => 'git-up' }
+      ]
+    }
   }
 ]
 
