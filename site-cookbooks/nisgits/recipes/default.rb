@@ -110,6 +110,13 @@ zip_app_package 'CoRD' do
   source 'http://downloads.sourceforge.net/project/cord/cord/0.5.7/CoRD_0.5.7.zip?r=http%3A%2F%2Fcord.sourceforge.net%2F&ts=1343992316&use_mirror=dfn'
   destination '/Applications/Network/'
 end
+
+directory '/Applications/Media'
+dmg_package 'Spotify' do
+  source 'http://download.spotify.com/Spotify.dmg'
+  destination '/Applications/Media/'
+end
+
 link "#{ENV['HOME']}/.ssh" do
   to "#{ENV['HOME']}/Dropbox/.ssh"
 end
