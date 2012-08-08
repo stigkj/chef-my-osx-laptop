@@ -57,4 +57,9 @@ Look at
   * find open tabs from Time Machine backup
 * Startup locate as service
   * sudo launchctl load -w /System/Library/LaunchDaemons/com.apple.locate.plist
-
+* Setting up printers
+* Sync licenses through Dropbox? defaults write or something
+* Install Java
+* Sync Gradle settings through Dropbox
+* Sync GnuPG through Dropbox
+* Use Hiss (http://collect3.com.au/hiss/) to forward Growl notifications to Mountain Lion's Notification Center
