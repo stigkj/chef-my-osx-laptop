@@ -65,11 +65,47 @@ link "#{ENV['HOME']}/bin/subl" do
   to '/Applications/Sublime Text 2.app/Contents/SharedSupport/bin/subl'
 end
 
-dmg_package 'Leda-IU-120.152' do
-  source 'http://download.jetbrains.com/idea/ideaIU-120.152.dmg'  
+zip_app_package 'Stay' do
+  source 'http://cordlessdog.com/stay/versions/Stay%201.2.1.zip'
+end
+
+dmg_package 'WineBottler' do
+  volumes_dir 'WineBottler Combo'
+  source 'http://mirrors.nolabelstudios.com/mikesmassivemess/files/WineBottlerCombo_1.2.5.dmg'
+end
+
+dmg_package 'Wine' do
+  volumes_dir 'WineBottler Combo'
+  source 'http://mirrors.nolabelstudios.com/mikesmassivemess/files/WineBottlerCombo_1.2.5.dmg'
+end
+
+dmg_package 'Leda-IU-120.305' do
+  source 'http://download.jetbrains.com/idea/ideaIU-120.305.dmg'
   destination '/Applications/Development/'
 end
 
+zip_app_package 'GitX' do
+  source 'http://cloud.github.com/downloads/brotherbard/gitx/GitX%20Nov-17-2010.zip'
+  destination '/Applications/Development/'
+end
+
+directory '/Applications/Network'
+dmg_package 'JollysFastVNC' do
+  volumes_dir 'JollysFastVNC.1.42.(1221501).10.7'
+  source 'http://www.jinx.de/JollysFastVNC_files/JollysFastVNC.current.dmg'
+  destination '/Applications/Network/'
+end
+
+dmg_package 'IPSecuritas' do
+  accept_eula true
+  source 'http://www.lobotomo.com/products/downloads/IPSecuritas%203.5rc.dmg'
+  destination '/Applications/Network/'
+end
+
+zip_app_package 'CoRD' do
+  source 'http://downloads.sourceforge.net/project/cord/cord/0.5.7/CoRD_0.5.7.zip?r=http%3A%2F%2Fcord.sourceforge.net%2F&ts=1343992316&use_mirror=dfn'
+  destination '/Applications/Network/'
+end
 link "#{ENV['HOME']}/.ssh" do
   to "#{ENV['HOME']}/Dropbox/.ssh"
 end
