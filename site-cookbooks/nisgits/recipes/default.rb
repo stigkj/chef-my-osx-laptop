@@ -111,11 +111,24 @@ zip_app_package 'CoRD' do
   destination '/Applications/Network/'
 end
 
+# TODO Remove extra directory!
+#zip_app_package 'sshuttle' do
+#  source 'https://github.com/apenwarr/sshuttle/zipball/sshuttle-0.61-macos-bin'
+#  destination '/Applications/Network/'
+#end
+
 directory '/Applications/Media'
 dmg_package 'Spotify' do
   source 'http://download.spotify.com/Spotify.dmg'
   destination '/Applications/Media/'
 end
+
+# TODO dmg_package does not handle a .pkg; do it "manually"
+#dmg_package 'Graphviz' do
+#  source 'http://www.graphviz.org/pub/graphviz/stable/macos/lion/graphviz-2.28.0.pkg'
+#  destination '/Applications/Media/'
+#  type "pkg"
+#end
 
 link "#{ENV['HOME']}/.ssh" do
   to "#{ENV['HOME']}/Dropbox/.ssh"
