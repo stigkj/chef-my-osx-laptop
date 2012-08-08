@@ -1,7 +1,10 @@
 package 'zsh'
 package 'lesspipe'
+package 'gradle'
 package 'groovy'
 package 'ruby-build'
+package 'git-flow'
+package 'tig'
 
 node['rbenv']['user_installs'] = [
   { 'user'    => 'gits',
