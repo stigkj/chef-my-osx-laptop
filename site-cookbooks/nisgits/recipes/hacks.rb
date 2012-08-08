@@ -5,18 +5,53 @@ mac_os_x_userdefaults 'Disable "natural" (Lion-style) scrolling' do
   type 'bool'
 end
 
-# Menu bar: disable transparency
-#defaults write NSGlobalDomain AppleEnableMenuBarTransparency -bool false
+mac_os_x_userdefaults 'Menu bar: disable transparency' do
+  domain 'NSGlobalDomain'
+  key 'AppleEnableMenuBarTransparency'
+  value 'false'
+  type 'bool'
+end
+
+mac_os_x_userdefaults 'Finder: show hidden files by default' do
+  domain 'com.apple.finder'
+  key 'AppleShowAllFiles'
+  value 'true'
+  type 'bool'
+end
+
+mac_os_x_userdefaults 'Finder: show all filename extensions' do
+  domain 'NSGlobalDomain'
+  key 'AppleShowAllExtensions'
+  value 'true'
+  type 'bool'
+end
+
+mac_os_x_userdefaults 'Remove the auto-hiding Dock delay' do
+  domain 'com.apple.dock'
+  key 'autohide-delay'
+  value '0'
+  type 'float'
+end
+
+mac_os_x_userdefaults 'Remove the animation when hiding/showing the Dock' do
+  domain 'com.apple.dock'
+  key 'autohide-time-modifier'
+  value '0'
+  type 'float'
+end
+
+mac_os_x_userdefaults 'Automatically hide and show the Dock' do
+  domain 'com.apple.dock'
+  key 'autohide'
+  value 'true'
+  type 'bool'
+end
+
 
 # Disable smooth scrolling
 # (Uncomment if you’re on an older Mac that messes up the animation)
 #defaults write NSGlobalDomain NSScrollAnimationEnabled -bool false
 
-# Finder: show hidden files by default
-#defaults write com.apple.Finder AppleShowAllFiles -bool true
-
-# Finder: show all filename extensions
-#defaults write NSGlobalDomain AppleShowAllExtensions -bool true
 
 # Finder: show status bar
 #defaults write com.apple.finder ShowStatusBar -bool true
