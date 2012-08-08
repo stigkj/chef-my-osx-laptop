@@ -18,6 +18,7 @@ node['rbenv']['user_installs'] = [
   }
 ]
 
+#include_recipe 'npm'
 include_recipe 'ruby_build'
 include_recipe 'rbenv::user'
 
