@@ -48,6 +48,20 @@ mac_os_x_userdefaults 'Automatically hide and show the Dock' do
 end
 
 
+# TODO Enable access for assistive devices
+# sudo touch /private/var/db/.AccessibilityAPIEnabled
+
+# TODO turn off remote
+
+# TODO use function keys as standard function keys
+
+# TODO Turn off Resume (new Lion feature) on a per app basis
+# http://osxdaily.com/2011/08/01/turn-off-resume-per-app-in-mac-os-x-lion/
+
+# Enable the 2D Dock
+#defaults write com.apple.dock no-glass -bool true
+
+
 # Disable smooth scrolling
 # (Uncomment if you’re on an older Mac that messes up the animation)
 #defaults write NSGlobalDomain NSScrollAnimationEnabled -bool false
