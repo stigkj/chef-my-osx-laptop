@@ -38,7 +38,7 @@ Look at
 ## Other stuff
 
 * download Xcode command line tools from Apple using adc_download.sh
-  * http://atastypixel.com/blog/resuming-adc-downloads-cos-safari-sucks/
+  * https://github.com/michaeltyson/adc-download
   * http://adcdownload.apple.com/Developer_Tools/command_line_tools_os_x_lion_for_xcode__july_2012/xcode44cltools_10_76938107a.dmg
   * put shell script on its own project on GitHub? Contact author, check if he has a GH-page
 * Have all (active) github (and other) repos checked out in the correct place
