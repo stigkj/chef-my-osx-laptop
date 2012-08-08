@@ -5,6 +5,10 @@ site 'http://community.opscode.com/api/v1'
 cookbook 'mac_os_x'
 cookbook 'dmg'
 cookbook 'homebrew'
+cookbook 'ruby_build'
+
+cookbook 'rbenv',
+  :git => 'https://github.com/fnichol/chef-rbenv', :ref => 'v0.6.10'
 
 # Use platform_packages so one can just list packages (from homebrew) to install?
 # cookbook 'platform_packages'

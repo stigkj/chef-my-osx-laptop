@@ -1,6 +1,17 @@
 package 'zsh'
 package 'lesspipe'
 package 'groovy'
+package 'ruby-build'
+
+node['rbenv']['user_installs'] = [
+  { 'user'    => 'gits',
+    'rubies'  => ['1.9.3-p194'],
+    'global'  => '1.9.3-p194',
+  }
+]
+
+include_recipe 'ruby_build'
+include_recipe 'rbenv::user'
 
 user node[:nisgits][:user] do
   shell '/usr/local/bin/zsh'
