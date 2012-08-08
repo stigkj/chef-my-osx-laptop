@@ -27,6 +27,13 @@ Look at
     * Look at crankd.py for running a script for writing DNS servers on each network change
       An example: http://glarizza.posterous.com/using-crankd-to-react-to-network-events
 
+## Applications to install
+
+* Slink
+* Sublime Text 2 (done)
+  * also include plugins
+* Alfred
+* GrandPerspective (disk space utility)
 
 ## Other stuff
 
