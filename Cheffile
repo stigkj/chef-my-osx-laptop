@@ -6,6 +6,7 @@ cookbook 'mac_os_x'
 cookbook 'dmg'
 cookbook 'homebrew'
 cookbook 'ruby_build'
+cookbook 'zip_app'
 
 cookbook 'rbenv',
   :git => 'https://github.com/fnichol/chef-rbenv', :ref => 'v0.6.10'

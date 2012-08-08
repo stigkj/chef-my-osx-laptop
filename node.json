@@ -1,8 +1,12 @@
 {
+    "one_password": {
+        "version": "3.8.20"
+    },
     "run_list": [
         "recipe[mac_os_x]",
         "recipe[dmg]",
         "recipe[homebrew]",
+        "recipe[zip_app]",
         "recipe[nisgits]"
     ]
 }
