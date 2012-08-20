@@ -69,6 +69,9 @@ end
 # Disable other variants-popup
 #defaults write -g ApplePressAndHoldEnabled -bool NO
 
+#Unhide ~/Library
+#chflags nohidden ~/Library
+
 # Disable smooth scrolling
 # (Uncomment if you’re on an older Mac that messes up the animation)
 #defaults write NSGlobalDomain NSScrollAnimationEnabled -bool false
