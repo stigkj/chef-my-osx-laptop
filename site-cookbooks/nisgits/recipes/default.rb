@@ -106,6 +106,17 @@ zip_app_package 'GitX' do
   destination '/Applications/Development/'
 end
 
+dmg_package 'VirtualBox' do
+  source 'http://download.virtualbox.org/virtualbox/4.1.18/VirtualBox-4.1.18-78361-OSX.dmg'
+  type 'mpkg'
+end
+
+dmg_package 'Vagrant' do
+  source 'http://files.vagrantup.com/packages/eb590aa3d936ac71cbf9c64cf207f148ddfc000a/Vagrant-1.0.3.dmg'
+  type 'pkg'
+  package_id 'com.vagrant.vagrant'
+end
+
 directory '/Applications/Network'
 dmg_package 'JollysFastVNC' do
   volumes_dir 'JollysFastVNC.1.42.(1221501).10.7'
