@@ -63,6 +63,11 @@ zip_app_package '1Password' do
   source 'https://d13itkw33a7sus.cloudfront.net/dist/1P/mac/1Password-3.8.20.zip'
 end
 
+dmg_package 'Alfred' do
+  volumes_dir 'Alfred.app'
+  source 'http://cachefly.alfredapp.com/alfred_1.3_249.dmg'
+end
+
 dmg_package 'Sublime Text 2' do
   source 'http://c758482.r82.cf2.rackcdn.com/Sublime%20Text%202.0.1.dmg'  
 end
