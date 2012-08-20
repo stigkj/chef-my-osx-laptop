@@ -63,3 +63,4 @@ Look at
 * Sync Gradle settings through Dropbox
 * Sync GnuPG through Dropbox
 * Use Hiss (http://collect3.com.au/hiss/) to forward Growl notifications to Mountain Lion's Notification Center
+* resty & jsawk for REST on the commandline
