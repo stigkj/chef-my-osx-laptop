@@ -89,8 +89,8 @@ dmg_package 'Wine' do
   source 'http://mirrors.nolabelstudios.com/mikesmassivemess/files/WineBottlerCombo_1.2.5.dmg'
 end
 
-dmg_package 'Leda-IU-120.305' do
-  source 'http://download.jetbrains.com/idea/ideaIU-120.305.dmg'
+dmg_package 'Leda-IU-122.100' do
+  source 'http://download.jetbrains.com/idea/ideaIU-122.100.dmg'
   destination '/Applications/Development/'
 end
 
