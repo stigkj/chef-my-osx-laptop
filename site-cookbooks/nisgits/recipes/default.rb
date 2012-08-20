@@ -5,6 +5,7 @@ package 'groovy'
 package 'ruby-build'
 package 'git-flow'
 package 'tig'
+package 'tree'
 
 node['rbenv']['user_installs'] = [
   { 'user'    => 'gits',
