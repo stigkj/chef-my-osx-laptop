@@ -47,6 +47,8 @@ mac_os_x_userdefaults 'Automatically hide and show the Dock' do
   type 'bool'
 end
 
+# Have function keys work as regular function keys and not their special features
+# defaults write -g com.apple.keyboard.fnState -boolean true
 
 # TODO Enable access for assistive devices
 # sudo touch /private/var/db/.AccessibilityAPIEnabled
