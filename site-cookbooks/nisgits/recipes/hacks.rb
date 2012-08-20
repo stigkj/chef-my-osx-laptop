@@ -50,6 +50,9 @@ end
 # Have function keys work as regular function keys and not their special features
 # defaults write -g com.apple.keyboard.fnState -boolean true
 
+# Remove a keyboard shortcut, can use the same for registering shortcuts
+# defaults write -g NSUserKeyEquivalents -dict-add "Special Characters..." nul
+
 # TODO Enable access for assistive devices
 # sudo touch /private/var/db/.AccessibilityAPIEnabled
 
