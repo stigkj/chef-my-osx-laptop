@@ -66,6 +66,8 @@ end
 # Enable the 2D Dock
 #defaults write com.apple.dock no-glass -bool true
 
+# Disable other variants-popup
+#defaults write -g ApplePressAndHoldEnabled -bool NO
 
 # Disable smooth scrolling
 # (Uncomment if you’re on an older Mac that messes up the animation)
