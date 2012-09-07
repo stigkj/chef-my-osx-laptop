@@ -20,7 +20,10 @@ node['rbenv']['user_installs'] = [
     'global'  => '1.9.3-p194',
     'gems'    => {
       '1.9.3-p194' => [
-        { 'name' => 'git-up' }
+        { 'name' => 'git-up' },
+        { 'name' => 'bundler' },
+        { 'name' => 'berkshelf' },
+        { 'name' => 'librarian-puppet' }
       ]
     }
   }
