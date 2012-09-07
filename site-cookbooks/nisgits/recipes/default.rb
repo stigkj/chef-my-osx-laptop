@@ -6,6 +6,11 @@ package 'ruby-build'
 package 'git-flow'
 package 'tig'
 package 'tree'
+package 'sslscan'
+package 'ssldump'
+package 'ack'
+package 'gecode'
+package 'p7zip'
 
 node['rbenv']['user_installs'] = [
   { 'user'    => 'gits',
