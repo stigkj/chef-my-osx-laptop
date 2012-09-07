@@ -176,6 +176,9 @@ dmg_package 'Spotify' do
   destination '/Applications/Media/'
 end
 
+# TODO install MPlayer OSX extended
+# zipapp
+
 # TODO dmg_package does not handle a .pkg; do it "manually"
 #dmg_package 'Graphviz' do
 #  source 'http://www.graphviz.org/pub/graphviz/stable/macos/lion/graphviz-2.28.0.pkg'
