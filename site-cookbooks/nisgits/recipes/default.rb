@@ -204,6 +204,21 @@ link "#{ENV['HOME']}/.gitignore" do
   to "#{ENV['HOME']}/Dropbox/.gitignore"
 end
 
+# TODO
+# gems:
+#   exchanger
+#   pry
+#   jazor
+
+# TODO
+# npms:
+#   underscore-cli
+#   jsonlint
+
+# TODO
+# python:
+#   pip / virtualenv / mkvirtualenv (http://gillesfabio.com/blog/2011/03/01/rvm-for-pythonistas-virtualenv-for-rubyists)
+#   littlechef
 
 include_recipe 'nisgits::hacks'
 include_recipe 'nisgits::nos_git_repos'
