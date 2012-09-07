@@ -33,10 +33,11 @@ node['rbenv']['user_installs'] = [
 include_recipe 'ruby_build'
 include_recipe 'rbenv::user'
 
-user node[:nisgits][:user] do
-  shell '/usr/local/bin/zsh'
-  action :manage
-end
+# TODO need sudo rights
+#user node[:nisgits][:user] do
+#  shell '/usr/local/bin/zsh'
+#  action :manage
+#end
 
 link "#{ENV['HOME']}/.zshrc" do
   to "#{ENV['HOME']}/Dropbox/.zshrc"
