@@ -159,10 +159,11 @@ end
 #  destination '/Applications/Network/'
 #end
 
-zip_app_package 'Post Grabber' do
-  source 'https://github.com/downloads/michaeltyson/PostGrabber/Post%20Grabber%201.2.zip'
-  destination '/Applications/Network/'
-end
+# TODO problems with download because of spaces?
+#zip_app_package 'Post Grabber' do
+#  source 'https://github.com/downloads/michaeltyson/PostGrabber/Post%20Grabber%201.2.zip'
+#  destination '/Applications/Network/'
+#end
 
 directory '/Applications/Media'
 dmg_package 'Spotify' do
