@@ -39,6 +39,8 @@ include_recipe 'rbenv::user'
 #  action :manage
 #end
 
+# TODO checkout VIM stuff: http://skwp.github.com/dotfiles/
+
 link "#{ENV['HOME']}/.zshrc" do
   to "#{ENV['HOME']}/Dropbox/.zshrc"
 end
