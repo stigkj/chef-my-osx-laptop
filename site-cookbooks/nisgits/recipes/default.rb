@@ -6,6 +6,8 @@ package 'ruby-build'
 package 'git-flow'
 package 'tig'
 package 'tree'
+# TODO fix installation
+#package 'httpry'
 package 'sslscan'
 package 'ssldump'
 package 'ack'
