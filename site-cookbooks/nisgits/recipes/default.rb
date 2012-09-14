@@ -176,8 +176,11 @@ dmg_package 'Spotify' do
   destination '/Applications/Media/'
 end
 
-# TODO install MPlayer OSX extended
-# zipapp
+# TODO install:
+#   * MPlayer OSX extended (zipapp)
+#   * http://lokiware.info/Attachment-Tamer
+#   * Look at all bought software and in old backups of installed software
+#   * resty (curl -L http://github.com/micha/resty/raw/master/resty > resty)
 
 # TODO look at http://babushka.me
 
