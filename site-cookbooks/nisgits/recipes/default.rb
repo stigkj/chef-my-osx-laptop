@@ -181,7 +181,7 @@ end
 #   * http://lokiware.info/Attachment-Tamer
 #   * Look at all bought software and in old backups of installed software
 #   * resty (curl -L http://github.com/micha/resty/raw/master/resty > resty)
-
+#   * Gmvault (http://gmvault.org)
 # TODO look at http://babushka.me
 
 # TODO dmg_package does not handle a .pkg; do it "manually"
