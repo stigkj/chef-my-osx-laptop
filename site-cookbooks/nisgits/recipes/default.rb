@@ -178,6 +178,11 @@ end
 
 # TODO install:
 #   * MPlayer OSX extended (zipapp)
+#   * Beyond Compare via WineBottler
+#     * alias bc3='open -n -a /Applications/Beyond\ Compare.app'
+#     * Remove this key from its Info.plist:
+#       <key>WineProgramArguments</key>
+#       <string></string>
 #   * http://lokiware.info/Attachment-Tamer
 #   * Look at all bought software and in old backups of installed software
 #   * resty (curl -L http://github.com/micha/resty/raw/master/resty > resty)
