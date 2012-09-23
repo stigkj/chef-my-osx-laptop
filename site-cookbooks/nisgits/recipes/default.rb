@@ -189,6 +189,7 @@ end
 #   * Gmvault (http://gmvault.org)
 #   * Yeoman (yeoman.io)
 #   * Play (brew install play)
+#   * Scala/sbt (brew install *)
 # TODO look at http://babushka.me
 
 # TODO dmg_package does not handle a .pkg; do it "manually"
