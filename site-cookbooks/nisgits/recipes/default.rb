@@ -190,6 +190,8 @@ end
 #   * Yeoman (yeoman.io)
 #   * Play (brew install play)
 #   * Scala/sbt (brew install *)
+#   * Fantastical
+#
 # TODO look at http://babushka.me
 
 # TODO dmg_package does not handle a .pkg; do it "manually"
