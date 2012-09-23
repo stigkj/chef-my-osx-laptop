@@ -188,6 +188,7 @@ end
 #   * resty (curl -L http://github.com/micha/resty/raw/master/resty > resty)
 #   * Gmvault (http://gmvault.org)
 #   * Yeoman (yeoman.io)
+#   * Play (brew install play)
 # TODO look at http://babushka.me
 
 # TODO dmg_package does not handle a .pkg; do it "manually"
