@@ -113,8 +113,8 @@ end
 #  type 'mpkg'
 #end
 
-dmg_package 'Leda-IU-122.327' do
-  source 'http://download.jetbrains.com/idea/ideaIU-122.327.dmg'
+dmg_package 'Leda-IU-122.395' do
+  source 'http://download.jetbrains.com/idea/ideaIU-122.395.dmg'
   destination '/Applications/Development/'
 end
 
