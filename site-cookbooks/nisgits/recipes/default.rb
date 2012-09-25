@@ -103,7 +103,6 @@ dmg_package 'Wine' do
 end
 
 dmg_package 'Slink' do
-  #volumes_dir 'WineBottler Combo'
   source 'http://slinkware.com/slink/download.php'
 end
 
