@@ -177,6 +177,9 @@ end
 
 # TODO add dotfiles for ack, tigrc and others, look at a dotfile repo
 
+# TODO Move ssh agent password stuff in Keychain Access to their own
+# keychain link?
+
 directory '/Applications/Media'
 dmg_package 'Spotify' do
   source 'http://download.spotify.com/Spotify.dmg'
