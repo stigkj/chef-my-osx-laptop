@@ -198,6 +198,8 @@ end
 #   * Play (brew install play)
 #   * Scala/sbt (brew install *)
 #   * Fantastical
+#   * Send to Kindle
+#   * Kindle for Mac
 #
 # TODO look at http://babushka.me
 
