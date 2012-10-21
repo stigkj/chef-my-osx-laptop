@@ -167,7 +167,7 @@ end
 # TODO pdanet for using wifi on android
 # http://www.junefabrics.com/bin/PdaNetA243.pkg
 
-# TODO add dotfiles for ack and others, look at a dotfile repo
+# TODO add dotfiles for ack, tigrc and others, look at a dotfile repo
 
 directory '/Applications/Media'
 dmg_package 'Spotify' do
