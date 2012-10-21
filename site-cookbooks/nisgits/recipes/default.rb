@@ -180,6 +180,8 @@ end
 # TODO Move ssh agent password stuff in Keychain Access to their own
 # keychain link?
 
+# TODO install groovy 1.8.x to go with gradle plugins development
+
 directory '/Applications/Media'
 dmg_package 'Spotify' do
   source 'http://download.spotify.com/Spotify.dmg'
