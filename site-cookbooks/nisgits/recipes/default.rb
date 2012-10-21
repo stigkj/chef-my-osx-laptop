@@ -26,7 +26,10 @@ node['rbenv']['user_installs'] = [
         { 'name' => 'git-up' },
         { 'name' => 'bundler' },
         { 'name' => 'berkshelf' },
-        { 'name' => 'librarian-puppet' }
+        { 'name' => 'librarian-puppet' },
+        { 'name' => 'tres' },
+        { 'name' => 'showoff' },
+        { 'name' => 't' }
       ]
     }
   }
