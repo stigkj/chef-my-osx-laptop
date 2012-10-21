@@ -124,6 +124,8 @@ dmg_package 'Leda-IU-122.592' do
   destination '/Applications/Development/'
 end
 
+# TODO install themes for editors, tomorrow-theme or solarized
+
 zip_app_package 'GitX' do
   source 'http://cloud.github.com/downloads/brotherbard/gitx/GitX%20Nov-17-2010.zip'
   destination '/Applications/Development/'
