@@ -13,6 +13,9 @@ package 'ssldump'
 package 'ack'
 package 'gecode'
 package 'p7zip'
+package 'mmv'
+package 'mr'        # Multiple Repository management tool
+package 'jnettop'   # Network traffic visualiser
 
 node['rbenv']['user_installs'] = [
   { 'user'    => 'gits',
