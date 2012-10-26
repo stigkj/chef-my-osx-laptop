@@ -49,6 +49,8 @@ end
 
 # Look at this: https://github.com/mathiasbynens/dotfiles/blob/master/.osx
 
+# Look at http://chris-gerke.blogspot.no/2012/03/mac-osx-soe-master-image-day-6.html
+
 # Have function keys work as regular function keys and not their special features
 # defaults write -g com.apple.keyboard.fnState -boolean true
 
