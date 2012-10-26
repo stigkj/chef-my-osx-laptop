@@ -16,6 +16,7 @@ package 'p7zip'
 package 'mmv'
 package 'mr'        # Multiple Repository management tool
 package 'jnettop'   # Network traffic visualiser
+package 'jq'        # Lightweight and flexible command-line JSON processor
 
 node['rbenv']['user_installs'] = [
   { 'user'    => 'gits',
