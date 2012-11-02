@@ -14,9 +14,9 @@ package 'ack'
 package 'gecode'
 package 'p7zip'
 package 'mmv'
-package 'mr'        # Multiple Repository management tool
-package 'jnettop'   # Network traffic visualiser
-package 'jq'        # Lightweight and flexible command-line JSON processor
+package 'mr'                    # Multiple Repository management tool
+package 'jnettop'               # Network traffic visualiser
+package 'jq'                    # Lightweight and flexible command-line JSON processor
 package 'the_silver_searcher'   # Ag, a very fast code-searching tool, faster than ack 
 
 node['rbenv']['user_installs'] = [
@@ -207,6 +207,7 @@ end
 #   * Fantastical
 #   * Send to Kindle
 #   * Kindle for Mac
+#   * Synergy (synergy-foss.org)
 #
 # TODO look at http://babushka.me
 
