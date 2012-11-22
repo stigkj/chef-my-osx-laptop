@@ -251,6 +251,7 @@ end
 # npms:
 #   underscore-cli
 #   jsonlint
+#   madge             # Module dependency graph for CommonJS and AMD module deps
 
 # TODO
 # python:
