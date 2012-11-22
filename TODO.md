@@ -42,6 +42,7 @@ Look at
   * http://adcdownload.apple.com/Developer_Tools/command_line_tools_os_x_lion_for_xcode__july_2012/xcode44cltools_10_76938107a.dmg
 * Have all (active) github (and other) repos checked out in the correct place
 	* Maybe use chef for updating all of them too?
+  * Use mr
 * Nice OSX defaults: https://github.com/mathiasbynens/dotfiles/blob/master/.osx
 * chefify all packages installed
   * brew
