@@ -99,6 +99,10 @@ link "#{ENV['HOME']}/bin/subl" do
   to '/Applications/Sublime Text 2.app/Contents/SharedSupport/bin/subl'
 end
 
+dmg_package 'Texts' do
+  source 'http://www.texts.io/Texts-0.9.dmg'
+end
+
 zip_app_package 'Stay' do
   source 'http://cordlessdog.com/stay/versions/Stay%201.2.1.zip'
 end
