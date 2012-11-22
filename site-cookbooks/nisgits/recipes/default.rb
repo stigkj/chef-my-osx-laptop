@@ -215,6 +215,8 @@ end
 #   * Send to Kindle
 #   * Kindle for Mac
 #   * Synergy (synergy-foss.org)
+#   * Java (1.6 & 1.7) with source
+#     * Download from Developer Connection with adc_download.sh
 #   * Shortcat (http://updates.shortcatapp.com/v0.3.6/Shortcat.app.zip)
 #
 # TODO look at http://babushka.me
