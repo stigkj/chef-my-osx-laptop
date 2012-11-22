@@ -33,6 +33,7 @@ node['rbenv']['user_installs'] = [
         { 'name' => 'librarian-puppet' },
         { 'name' => 'tres' },
         { 'name' => 'showoff' },
+        { 'name' => 'bcat' },                 # a pipe-to-browser utility
         { 'name' => 't' }
       ]
     }
