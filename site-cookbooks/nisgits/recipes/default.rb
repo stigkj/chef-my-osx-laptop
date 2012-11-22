@@ -215,6 +215,7 @@ end
 #   * Send to Kindle
 #   * Kindle for Mac
 #   * Synergy (synergy-foss.org)
+#   * Shortcat (http://updates.shortcatapp.com/v0.3.6/Shortcat.app.zip)
 #
 # TODO look at http://babushka.me
 
