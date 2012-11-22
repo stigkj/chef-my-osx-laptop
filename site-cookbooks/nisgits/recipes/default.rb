@@ -19,6 +19,7 @@ package 'jnettop'               # Network traffic visualiser
 package 'jq'                    # Lightweight and flexible command-line JSON processor
 package 'the_silver_searcher'   # Ag, a very fast code-searching tool, faster than ack 
 package 'socat'                 # A multipurpose network tool
+package 'gist'                  # Pastes text into a new gist on gist.github.com
 
 node['rbenv']['user_installs'] = [
   { 'user'    => 'gits',
