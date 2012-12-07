@@ -220,6 +220,7 @@ end
 #   * Java (1.6 & 1.7) with source
 #     * Download from Developer Connection with adc_download.sh
 #   * Shortcat (http://updates.shortcatapp.com/v0.3.6/Shortcat.app.zip)
+#   * Prey (preyproject.com) for tracking devices (phones, computers, etc)
 #
 # TODO look at http://babushka.me
 
