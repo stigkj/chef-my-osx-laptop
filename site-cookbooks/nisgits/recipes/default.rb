@@ -222,6 +222,9 @@ end
 #   * Shortcat (http://updates.shortcatapp.com/v0.3.6/Shortcat.app.zip)
 #   * Prey (preyproject.com) for tracking devices (phones, computers, etc)
 #   * MailPlane
+#   * QuickLook plugins
+#     * QLColorCode (github/n8grey/QLColorCode)
+#     * MMD-QuickLook (github/ttscoff/MMD-QuickLook)
 #
 # TODO look at http://babushka.me
 
