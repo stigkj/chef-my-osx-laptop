@@ -130,7 +130,7 @@ end
 #end
 
 
-dmg_package 'IntelliJ-IU-12' do
+dmg_package 'IntelliJ IDEA 12' do
   source 'http://download.jetbrains.com/idea/ideaIU-12.0.dmg'
   destination '/Applications/Development/'
 end
