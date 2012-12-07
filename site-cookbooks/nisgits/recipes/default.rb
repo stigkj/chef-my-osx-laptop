@@ -20,6 +20,7 @@ package 'jq'                    # Lightweight and flexible command-line JSON pro
 package 'the_silver_searcher'   # Ag, a very fast code-searching tool, faster than ack 
 package 'socat'                 # A multipurpose network tool
 package 'gist'                  # Pastes text into a new gist on gist.github.com
+package 'rest-shell'            # Command-line shell for interacting with Spring HATEOAS-compliant REST resources
 
 node['rbenv']['user_installs'] = [
   { 'user'    => 'gits',
