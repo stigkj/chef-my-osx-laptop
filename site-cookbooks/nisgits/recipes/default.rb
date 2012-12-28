@@ -222,6 +222,9 @@ end
 #   * Shortcat (http://updates.shortcatapp.com/v0.3.6/Shortcat.app.zip)
 #   * Prey (preyproject.com) for tracking devices (phones, computers, etc)
 #   * MailPlane
+#   * git-sweep (remove remote branches merged into master)
+#   * maid (cleans up files, Hazel for hackers)
+#   * httpie (command line http client)
 #   * QuickLook plugins
 #     * QLColorCode (github/n8grey/QLColorCode)
 #     * MMD-QuickLook (github/ttscoff/MMD-QuickLook)
