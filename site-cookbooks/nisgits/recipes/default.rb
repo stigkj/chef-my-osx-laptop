@@ -230,6 +230,10 @@ end
 #     * MMD-QuickLook (github/ttscoff/MMD-QuickLook)
 #
 # TODO look at http://babushka.me
+# TODO improve cookbook by following http://vialstudios.com/guide-authoring-cookbooks.html
+# TODO improve cookbook by following http://devopsanywhere.blogspot.no/2012/10/a-year-with-chef.html
+# TODO improve cookbook by using http://acrmp.github.com/foodcritic
+# TODO test cookbook with Chefspec/minitest-chef-handler (@ github.com/acrmp)
 
 # TODO dmg_package does not handle a .pkg; do it "manually"
 #dmg_package 'Graphviz' do
