@@ -35,6 +35,7 @@ node['rbenv']['user_installs'] = [
         { 'name' => 'tres' },
         { 'name' => 'showoff' },
         { 'name' => 'bcat' },                 # a pipe-to-browser utility
+        { 'name' => 'pry' },                  # a great Ruby REPL (irb on steriods)
         { 'name' => 't' }
       ]
     }
@@ -261,7 +262,6 @@ end
 # TODO
 # gems:
 #   exchanger
-#   pry
 #   jazor
 
 # TODO
