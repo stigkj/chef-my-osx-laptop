@@ -226,6 +226,7 @@ end
 #   * git-sweep (remove remote branches merged into master)
 #   * maid (cleans up files, Hazel for hackers)
 #   * httpie (command line http client)
+#   * pup (DataDog's statsd server in development mode, http://www.datadoghq.com/2012/08/easy-app-metrics-with-pup)
 #   * QuickLook plugins
 #     * QLColorCode (github/n8grey/QLColorCode)
 #     * MMD-QuickLook (github/ttscoff/MMD-QuickLook)
