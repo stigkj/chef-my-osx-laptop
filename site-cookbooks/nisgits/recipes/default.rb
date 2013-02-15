@@ -286,6 +286,7 @@ end
 # python:
 #   pip / virtualenv / mkvirtualenv (http://gillesfabio.com/blog/2011/03/01/rvm-for-pythonistas-virtualenv-for-rubyists)
 #   littlechef
+#   mercurial         # Version control system
 
 include_recipe 'nisgits::hacks'
 include_recipe 'nisgits::nos_git_repos'
