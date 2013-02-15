@@ -21,6 +21,10 @@ package 'the_silver_searcher'   # Ag, a very fast code-searching tool, faster th
 package 'socat'                 # A multipurpose network tool
 package 'gist'                  # Pastes text into a new gist on gist.github.com
 package 'rest-shell'            # Command-line shell for interacting with Spring HATEOAS-compliant REST resources
+package 'task-spooler'          # Easily queue jobs from the terminal
+package 'trash'                 # Moves files/folders to the OS X trash (TODO alias to rm?)
+package 'osxutils'              # Utilities for OS X specific settings, meta-data and information
+package 'proctools'             # Scans for and sends signals to processes
 
 node['rbenv']['user_installs'] = [
   { 'user'    => 'gits',
