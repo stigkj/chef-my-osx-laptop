@@ -202,6 +202,8 @@ end
 
 # TODO install groovy 1.8.x to go with gradle plugins development
 
+# TODO Make printing as black/white default
+
 directory '/Applications/Media'
 dmg_package 'Spotify' do
   source 'http://download.spotify.com/Spotify.dmg'
