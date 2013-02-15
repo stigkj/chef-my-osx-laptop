@@ -26,6 +26,7 @@ package 'trash'                 # Moves files/folders to the OS X trash (TODO al
 package 'osxutils'              # Utilities for OS X specific settings, meta-data and information
 package 'proctools'             # Scans for and sends signals to processes
 
+# Use chruby (https://github.com/postmodern/chruby) instead?
 node['rbenv']['user_installs'] = [
   { 'user'    => 'gits',
     'rubies'  => ['1.9.3-p194'],
