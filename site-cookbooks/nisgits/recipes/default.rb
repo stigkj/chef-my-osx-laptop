@@ -274,6 +274,7 @@ end
 # gems:
 #   exchanger
 #   jazor
+#   github_cli (Complete API v3 coverage from command line: https://github.com/peter-murach/github_cli)
 
 # TODO
 # npms:
