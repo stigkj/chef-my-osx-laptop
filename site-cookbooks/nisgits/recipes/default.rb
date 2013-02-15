@@ -232,11 +232,36 @@ end
 #     * Download from Developer Connection with adc_download.sh
 #   * Shortcat (http://updates.shortcatapp.com/v0.3.6/Shortcat.app.zip)
 #   * Prey (preyproject.com) for tracking devices (phones, computers, etc)
+#   * localtunnel (expose local web server on internet https://github.com/progrium/localtunnel)
 #   * MailPlane
 #   * git-sweep (remove remote branches merged into master)
 #   * maid (cleans up files, Hazel for hackers)
 #   * httpie (command line http client)
+#   * brunch (a lightweight approach to building HTML5 applications, http://brunch.io)
+#   * deployd (Easy API development: http://deployd.com)
 #   * pup (DataDog's statsd server in development mode, http://www.datadoghq.com/2012/08/easy-app-metrics-with-pup)
+#   * HoRNDIS: USB tethering driver for Mac OS X (http://joshuawise.com/horndis)
+#   * Choosy (choose which browser to open a link in at "runtime")
+#   * Postgres.app (http://postgresapp.com)
+#   * Look at direnv (https://github.com/zimbatm/direnv)
+#   * xiproxy (Transparent HTTP proxy for using the xip.io domain https://github.com/rashidkpc/xiproxy)
+#   * vimpager (a better pager, replacement for less.sh https://github.com/rkitover/vimpager)
+#   * jsonpipe (Converts JSON to to a line-based format) https://github.com/dvxhouse/jsonpipe)
+#   * jsawk (awk for JSON https://github.com/micha/jsawk)
+#   * selfspy (tool for recording all keystrokes, mouse clicks, window title, etc. https://github.com/gurgeh/selfspy)
+#     Must patch:
+#     if self.args['showtext']:
+#       print row.decrypt_text().**decode('utf-8')**
+#     pyobjc-core==**2.5.1**
+#     pyobjc==**2.5.1**
+#   * Other OS X cookbooks
+#     * https://github.com/josh/osx-cookbooks
+#   * Mosh (mobile shell, more robust than ssh)
+#   * ssh-chain (easy ssh chaining https://github.com/ryancdotorg/ssh-chain)
+#   * redsocks (transparent socks redirector http://darkk.net.ru/redsocks)
+#   * toggle-extra (toggles OSX menu icons on/off https://github.com/adamv/toggle-extra)
+#   * GitHub notifier (https://github.com/ctshryock/GithubNotifier, https://github.com/psionides/gitifier)
+#   * slate (window manager https://github.com/jigish/slate)
 #   * Brew plugins
 #     * Look at https://github.com/mxcl/homebrew/wiki/External-Commands
 #     * brew-cask (https://github.com/phinze/homebrew-cask)
