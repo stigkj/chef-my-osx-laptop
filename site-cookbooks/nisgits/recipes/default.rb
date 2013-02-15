@@ -281,6 +281,7 @@ end
 #   underscore-cli
 #   jsonlint
 #   madge             # Module dependency graph for CommonJS and AMD module deps
+#   jwalk             # Inspect JSON object trees on the command line
 
 # TODO
 # python:
