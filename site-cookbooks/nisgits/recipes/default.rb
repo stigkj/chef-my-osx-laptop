@@ -237,6 +237,15 @@ end
 #   * maid (cleans up files, Hazel for hackers)
 #   * httpie (command line http client)
 #   * pup (DataDog's statsd server in development mode, http://www.datadoghq.com/2012/08/easy-app-metrics-with-pup)
+#   * Brew plugins
+#     * Look at https://github.com/mxcl/homebrew/wiki/External-Commands
+#     * brew-cask (https://github.com/phinze/homebrew-cask)
+#     * brew-pip (https://github.com/josh/brew-pip)
+#     * brew-gem (https://github.com/josh/brew-gem)
+#     * brew-growl (https://github.com/secondplanet/brew-growl)
+#     * brew-more (https://gist.github.com/4622747)
+#     * brew-refresh (https://gist.github.com/4622743)
+#     * brew-services (https://gist.github.com/4622739)
 #   * QuickLook plugins
 #     * QLColorCode (github/n8grey/QLColorCode)
 #     * MMD-QuickLook (github/ttscoff/MMD-QuickLook)
