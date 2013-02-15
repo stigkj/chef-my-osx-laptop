@@ -282,6 +282,7 @@ end
 #   jsonlint
 #   madge             # Module dependency graph for CommonJS and AMD module deps
 #   jwalk             # Inspect JSON object trees on the command line
+#   buster.js         # A node/browser testing toolkit
 
 # TODO
 # python:
