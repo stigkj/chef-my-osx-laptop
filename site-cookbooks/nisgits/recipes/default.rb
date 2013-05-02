@@ -241,12 +241,16 @@ end
 #   * Fantastical
 #   * Send to Kindle
 #   * Kindle for Mac
+#   * CloudApp (file sharing http://getcloudapp.com also in App Store)
+#     * install cli too
+#     * gifify was also interesting (mov -> gif -> cloud, on github), is placed in ~/Dropbox/bin
 #   * Synergy (synergy-foss.org)
 #   * Java (1.6 & 1.7) with source
 #     * Download from Developer Connection with adc_download.sh
 #   * Shortcat (http://updates.shortcatapp.com/v0.3.6/Shortcat.app.zip)
 #   * Prey (preyproject.com) for tracking devices (phones, computers, etc)
 #   * localtunnel (expose local web server on internet https://github.com/progrium/localtunnel)
+#   * Little Snitch (application firewall http://www.obdev.at/products/littlesnitch/index.html)
 #   * MailPlane
 #   * git-sweep (remove remote branches merged into master)
 #   * maid (cleans up files, Hazel for hackers)
@@ -271,11 +275,33 @@ end
 #   * Other OS X cookbooks
 #     * https://github.com/josh/osx-cookbooks
 #   * Mosh (mobile shell, more robust than ssh)
+#   * ssh-argv0 (http://news.ycombinator.com/item?id=3012139)
+#     This is the content:
+#     #!/bin/sh
+#     exec ssh "${0##*/}" "$@"
 #   * ssh-chain (easy ssh chaining https://github.com/ryancdotorg/ssh-chain)
 #   * redsocks (transparent socks redirector http://darkk.net.ru/redsocks)
 #   * toggle-extra (toggles OSX menu icons on/off https://github.com/adamv/toggle-extra)
 #   * GitHub notifier (https://github.com/ctshryock/GithubNotifier, https://github.com/psionides/gitifier)
 #   * slate (window manager https://github.com/jigish/slate)
+#   * Create VirtualBox VMs for each IE version (https://github.com/xdissent/ievms)
+#   * bunyip (Automate client-side unit testing in real browsers http://ryanseddon.github.com/bunyip)
+#   * pagekite (tunneling service for local server https://pagekite.net)
+#   * git-playback (visual playback of git commits https://github.com/mmozuras/git-playback)
+#   * BoxCryptor/encfs (for encrypting of single files https://www.boxcryptor.com)
+#   * ControlPlane (change machine setup for each context (home, work, etc) http://www.controlplaneapp.com)
+#     or others: http://airportlocation.wordpress.com, http://oomphalot.com/sidekick
+#   * codetag (attach tags to development files automatically https://github.com/mk-fg/codetag)
+#   * mysql using "bash <(curl -Ls http://git.io/eUx7rg)"
+#   * Sequel Pro (nice mysql gui http://www.sequelpro.com)
+#   * PostgreSQL (http://postgresapp.com)
+#   * Shortcat ("click" buttons with the keyboard http://shortcatapp.com)
+#   * Sidestep (on unknown wireless networks route web traffic through proxy http://chetansurpur.com/projects/sidestep/)
+#   * Mouse and keyboard sharing:
+#     * http://www.keyboard-and-mouse-sharing.com
+#     * http://avatron.com/apps/air-display
+#     * Synergy (http://synergy-foss.org)
+#     * Teleport (http://www.abyssoft.com/software/teleport)
 #   * Brew plugins
 #     * Look at https://github.com/mxcl/homebrew/wiki/External-Commands
 #     * brew-cask (https://github.com/phinze/homebrew-cask)
@@ -285,6 +311,8 @@ end
 #     * brew-more (https://gist.github.com/4622747)
 #     * brew-refresh (https://gist.github.com/4622743)
 #     * brew-services (https://gist.github.com/4622739)
+#   * Magic Launch (launch rules for files http://www.metakine.com/products/magiclaunch)
+#   * pass (command line password manager http://zx2c4.com/projects/password-store)
 #   * QuickLook plugins
 #     * QLColorCode (github/n8grey/QLColorCode)
 #     * MMD-QuickLook (github/ttscoff/MMD-QuickLook)
