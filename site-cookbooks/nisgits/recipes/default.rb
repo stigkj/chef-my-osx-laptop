@@ -366,7 +366,7 @@ end
 #   nvm               # A node version manager, ala rvm (https://github.com/creationix/nvm)
 
 # TODO
-# python:
+# python: NB! Use brew pip to install these
 #   pip / virtualenv / mkvirtualenv (http://gillesfabio.com/blog/2011/03/01/rvm-for-pythonistas-virtualenv-for-rubyists)
 #   littlechef
 #   mercurial         # Version control system
