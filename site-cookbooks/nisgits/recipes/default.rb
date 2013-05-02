@@ -359,6 +359,11 @@ end
 #   madge             # Module dependency graph for CommonJS and AMD module deps
 #   jwalk             # Inspect JSON object trees on the command line
 #   buster.js         # A node/browser testing toolkit
+#   recess            # Twitter's code quality tool for CSS
+#   testem            # A nice test runner for javascript
+#   http-console      # HTTP REPL :-)
+#   http-server       # A simple http server
+#   nvm               # A node version manager, ala rvm (https://github.com/creationix/nvm)
 
 # TODO
 # python:
