@@ -111,11 +111,11 @@ dmg_package 'Alfred' do
   source 'http://cachefly.alfredapp.com/alfred_1.3_249.dmg'
 end
 
-dmg_package 'Sublime Text 2' do
-  source 'http://c758482.r82.cf2.rackcdn.com/Sublime%20Text%202.0.1.dmg'  
+dmg_package 'Sublime Text 3012b' do
+  source 'http://c758482.r82.cf2.rackcdn.com/Sublime%20Text%20Build%203021.dmg'
 end
-link "#{ENV['HOME']}/bin/subl" do
-  to '/Applications/Sublime Text 2.app/Contents/SharedSupport/bin/subl'
+link "#{ENV['HOME']}/Dropbox/bin/subl" do
+  to '/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl'
 end
 
 # TODO plugins for Sublime
