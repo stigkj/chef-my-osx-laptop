@@ -209,6 +209,7 @@ end
 # http://www.junefabrics.com/bin/PdaNetA243.pkg
 
 # TODO add dotfiles for ack, tigrc and others, look at a dotfile repo
+# for example https://github.com/mathiasbynens/dotfiles
 
 # TODO Move ssh agent password stuff in Keychain Access to their own
 # keychain link?
