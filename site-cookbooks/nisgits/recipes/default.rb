@@ -25,6 +25,12 @@ package 'task-spooler'          # Easily queue jobs from the terminal
 package 'trash'                 # Moves files/folders to the OS X trash (TODO alias to rm?)
 package 'osxutils'              # Utilities for OS X specific settings, meta-data and information
 package 'proctools'             # Scans for and sends signals to processes
+package 'encfs'                 # Encrypted files through FUSE
+package 'vcprompt'              # Prints a string describing the current directory's version control state
+package 'agedu'                 # Reports on disk space used, together with the age of these files
+package 'fasd'                  # Quickly reference files/folders used on command line (TODO installation in shell)
+package 'brew-pip'              # Install python packages through brew pip .... NB! Must link pip into /usr/bin for this to work
+package 'drip'                  # A faster JVM launcher
 
 # Use chruby (https://github.com/postmodern/chruby) instead?
 node['rbenv']['user_installs'] = [
