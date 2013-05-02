@@ -50,7 +50,10 @@ node['rbenv']['user_installs'] = [
         { 'name' => 'showoff' },
         { 'name' => 'bcat' },                 # a pipe-to-browser utility
         { 'name' => 'pry' },                  # a great Ruby REPL (irb on steriods)
-        { 'name' => 't' }
+        { 'name' => 'shaft' },                # an SSH tunnel assistant for the command line
+        { 'name' => 'tux' },                  # an interactive console for Sinatra (https://github.com/cldwalker/tux)
+        { 'name' => 't' },                    # great command line twitter client
+        { 'name' => 'omglog' }                # very nice realtime git log graph
       ]
     }
   }
