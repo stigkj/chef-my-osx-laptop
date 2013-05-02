@@ -123,7 +123,7 @@ end
 #  - floobits (Cross-editor real-time collaboration)
 
 dmg_package 'Texts' do
-  source 'http://www.texts.io/Texts-0.9.dmg'
+  source 'http://www.texts.io/Texts-0.13.dmg'
 end
 
 zip_app_package 'Stay' do
@@ -151,9 +151,8 @@ end
 #  type 'mpkg'
 #end
 
-
-dmg_package 'IntelliJ IDEA 12' do
-  source 'http://download.jetbrains.com/idea/ideaIU-12.0.dmg'
+dmg_package 'IntelliJ IDEA 12.1' do
+  source 'http://download.jetbrains.com/idea/ideaIU-12.1.dmg'
   destination '/Applications/Development/'
 end
 
