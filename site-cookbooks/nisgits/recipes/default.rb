@@ -118,6 +118,10 @@ link "#{ENV['HOME']}/bin/subl" do
   to '/Applications/Sublime Text 2.app/Contents/SharedSupport/bin/subl'
 end
 
+# TODO plugins for Sublime
+#  - emmet-sublime
+#  - floobits (Cross-editor real-time collaboration)
+
 dmg_package 'Texts' do
   source 'http://www.texts.io/Texts-0.9.dmg'
 end
