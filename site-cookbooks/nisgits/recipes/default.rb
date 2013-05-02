@@ -1,6 +1,6 @@
 package 'zsh'
 package 'lesspipe'
-package 'gradle'
+package 'gradle'                # TODO use gvmtool.net instead and also look at find-gradle (https://github.com/cbeams/shell-scripts)
 package 'groovy'
 package 'ruby-build'
 package 'git-flow'
