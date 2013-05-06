@@ -1,6 +1,5 @@
 package 'zsh'
 package 'lesspipe'
-package 'gradle'                # TODO use gvmtool.net instead and also look at find-gradle (https://github.com/cbeams/shell-scripts)
 package 'groovy'
 package 'ruby-build'
 package 'git-flow'
@@ -345,6 +344,14 @@ end
 link "#{ENV['HOME']}/.gitignore" do
   to "#{ENV['HOME']}/Dropbox/.gitignore"
 end
+
+bash 'install gvmtool' do
+  code <<-EOH
+    curl -s get.gvmtool.net | bash
+    EOH
+  not_if { ::File.exists?("#{ENV['HOME']}/.gvm")}
+end
+# TODO look at find-gradle (https://github.com/cbeams/shell-scripts)
 
 # TODO
 # gems:
