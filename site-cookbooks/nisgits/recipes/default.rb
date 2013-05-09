@@ -147,12 +147,7 @@ end
 #  type 'mpkg'
 #end
 
-bash 'create /Applications/Development' do
-  code <<-EOH
-    mkdir -p /Applications/Development
-    EOH
-  not_if { ::File.exists?('/Applications/Development') }
-end
+directory '/Applications/Development'
 
 dmg_package 'Leda-IU-129.400' do
   source 'http://download.jetbrains.com/idea/ideaIU-129.400.dmg'
@@ -179,12 +174,7 @@ dmg_package 'Vagrant' do
   package_id 'com.vagrant.vagrant'
 end
 
-bash 'create /Applications/Network' do
-  code <<-EOH
-    mkdir -p /Applications/Network
-    EOH
-  not_if { ::File.exists?('/Applications/Network') }
-end
+directory '/Applications/Network'
 
 dmg_package 'Slink' do
   source 'http://slinkware.com/slink/download.php'
@@ -238,12 +228,7 @@ end
 
 # TODO Make printing as black/white default
 
-bash 'create /Applications/Media' do
-  code <<-EOH
-    mkdir -p /Applications/Media
-    EOH
-  not_if { ::File.exists?('/Applications/Media') }
-end
+directory '/Applications/Media'
 
 dmg_package 'Spotify' do
   source 'http://download.spotify.com/Spotify.dmg'
