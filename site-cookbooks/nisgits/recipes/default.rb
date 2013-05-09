@@ -367,6 +367,18 @@ link "#{ENV['HOME']}/.gitignore" do
   to "#{ENV['HOME']}/Dropbox/.gitignore"
 end
 
+%w{buster buster-lint}.each do |pkg|
+  bash "install npm package #{pkg}" do
+    code <<-EOH
+      npm -g install #{pkg}
+      EOH
+    not_if {
+      %x[npm -g list #{pkg} | grep #{pkg}]
+      $?.exitstatus == 0
+    }
+  end
+end
+
 bash 'install gvmtool' do
   code <<-EOH
     curl -s get.gvmtool.net | bash
