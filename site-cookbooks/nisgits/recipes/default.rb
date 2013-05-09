@@ -85,9 +85,6 @@ git "#{ENV['HOME']}/.oh-my-zsh" do
   not_if { ::File.exists?("#{ENV['HOME']}/.oh-my-zsh") }
 end
 
-# For scripts not handled through Homebrew
-directory "#{ENV['HOME']}/bin"
-
 dmg_package 'Google Chrome' do
   dmg_name 'googlechrome'
   source 'https://dl-ssl.google.com/chrome/mac/stable/GGRM/googlechrome.dmg'
