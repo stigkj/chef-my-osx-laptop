@@ -160,6 +160,7 @@ dmg_package 'Leda-IU-129.400' do
 end
 
 # TODO install themes for editors, tomorrow-theme or solarized
+# https://raw.github.com/tomislav/osx-lion-terminal.app-colors-solarized/master/Solarized%20Dark.terminal
 
 zip_app_package 'GitX' do
   source 'http://cloud.github.com/downloads/brotherbard/gitx/GitX%20Nov-17-2010.zip'
