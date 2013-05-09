@@ -147,8 +147,15 @@ end
 #  type 'mpkg'
 #end
 
-dmg_package 'IntelliJ IDEA 12.1' do
-  source 'http://download.jetbrains.com/idea/ideaIU-12.1.dmg'
+bash 'create /Applications/Development' do
+  code <<-EOH
+    mkdir -p /Applications/Development
+    EOH
+  not_if { ::File.exists?('/Applications/Development') }
+end
+
+dmg_package 'Leda-IU-129.400' do
+  source 'http://download.jetbrains.com/idea/ideaIU-129.400.dmg'
   destination '/Applications/Development/'
 end
 
