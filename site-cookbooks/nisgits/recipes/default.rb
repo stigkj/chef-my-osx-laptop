@@ -192,7 +192,7 @@ dmg_package 'Slink' do
 end
 
 dmg_package 'JollysFastVNC' do
-  volumes_dir 'JollysFastVNC.1.42.(1221501).10.7'
+  volumes_dir 'JollysFastVNC.1.44.(1234001).10.7'
   source 'http://www.jinx.de/JollysFastVNC_files/JollysFastVNC.current.dmg'
   destination '/Applications/Network/'
 end
