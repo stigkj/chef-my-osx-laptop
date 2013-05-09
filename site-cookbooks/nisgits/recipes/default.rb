@@ -80,8 +80,6 @@ end
 git "#{ENV['HOME']}/.oh-my-zsh" do
   repository 'https://github.com/robbyrussell/oh-my-zsh.git'
   reference 'master'
-  user node[:nisgits][:user]
-  group 'staff'
   action :checkout
   not_if { ::File.exists?("#{ENV['HOME']}/.oh-my-zsh") }
 end
