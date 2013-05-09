@@ -208,6 +208,11 @@ zip_app_package 'CoRD' do
   destination '/Applications/Network/'
 end
 
+zip_app_package 'ScuttlebuttPro' do
+  source 'http://gallery.mailchimp.com/108ddaa3514b9271b563155a8/files/ScuttlebuttPro_0.3.1.zip?utm_source=Scuttlebutt+-+The+native+Yammer+client+for+OS+X&utm_campaign=43af7ed14e-Scuttlebutt_Beta_0_3_04_28_2013&utm_medium=email&utm_term=0_28a01c9ab0-43af7ed14e-58271825'
+  destination '/Applications/Network/'
+end
+
 # TODO Remove extra directory!
 #zip_app_package 'sshuttle' do
 #  source 'https://github.com/apenwarr/sshuttle/zipball/sshuttle-0.61-macos-bin'
