@@ -34,6 +34,7 @@ package 'drip'                  # A faster JVM launcher
 # TODO nvm or n - node version managers, ala rvm (https://github.com/creationix/nvm, https://github.com/visionmedia/n)
 package 'npm'                   # The node.js package manager, will also install node.js
 package 'phantomjs'             # A headless WebKit scriptable with JavaScript, very good for headless website testing
+package 'sbt'                   # The Scala build tool
 
 # TODO install ruby 1.9.x with rbenv/ruby_build first before running chef-solo
 # Use chruby (https://github.com/postmodern/chruby) instead?
