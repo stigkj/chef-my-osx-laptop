@@ -179,6 +179,12 @@ dmg_package 'Vagrant' do
   package_id 'com.vagrant.vagrant'
 end
 
+bash 'create /Applications/Network' do
+  code <<-EOH
+    mkdir -p /Applications/Network
+    EOH
+  not_if { ::File.exists?('/Applications/Network') }
+end
 
 dmg_package 'Slink' do
   source 'http://slinkware.com/slink/download.php'
