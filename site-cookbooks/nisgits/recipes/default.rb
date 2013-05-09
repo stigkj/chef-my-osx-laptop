@@ -31,6 +31,7 @@ package 'agedu'                 # Reports on disk space used, together with the 
 package 'fasd'                  # Quickly reference files/folders used on command line (TODO installation in shell)
 package 'brew-pip'              # Install python packages through brew pip .... NB! Must link pip into /usr/bin for this to work
 package 'drip'                  # A faster JVM launcher
+# TODO nvm or n - node version managers, ala rvm (https://github.com/creationix/nvm, https://github.com/visionmedia/n)
 
 # Use chruby (https://github.com/postmodern/chruby) instead?
 node['rbenv']['user_installs'] = [
@@ -371,7 +372,6 @@ end
 #   testem            # A nice test runner for javascript
 #   http-console      # HTTP REPL :-)
 #   http-server       # A simple http server
-#   nvm               # A node version manager, ala rvm (https://github.com/creationix/nvm)
 
 # TODO
 # python: NB! Use brew pip to install these
