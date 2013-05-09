@@ -6,7 +6,7 @@ package 'git-flow'
 package 'tig'
 package 'tree'
 # TODO fix installation
-#package 'httpry'
+package 'httpry'
 package 'sslscan'
 package 'ssldump'
 package 'ack'
@@ -16,7 +16,7 @@ package 'mmv'
 package 'mr'                    # Multiple Repository management tool
 package 'jnettop'               # Network traffic visualiser
 package 'jq'                    # Lightweight and flexible command-line JSON processor
-package 'the_silver_searcher'   # Ag, a very fast code-searching tool, faster than ack 
+package 'the_silver_searcher'   # Ag, a very fast code-searching tool, faster than ack
 package 'socat'                 # A multipurpose network tool
 package 'gist'                  # Pastes text into a new gist on gist.github.com
 package 'rest-shell'            # Command-line shell for interacting with Spring HATEOAS-compliant REST resources
@@ -26,6 +26,7 @@ package 'osxutils'              # Utilities for OS X specific settings, meta-dat
 package 'proctools'             # Scans for and sends signals to processes
 package 'encfs'                 # Encrypted files through FUSE
 package 'vcprompt'              # Prints a string describing the current directory's version control state
+# Wrong SHA1 in Homebrew package
 package 'agedu'                 # Reports on disk space used, together with the age of these files
 package 'fasd'                  # Quickly reference files/folders used on command line (TODO installation in shell)
 package 'brew-pip'              # Install python packages through brew pip .... NB! Must link pip into /usr/bin for this to work
