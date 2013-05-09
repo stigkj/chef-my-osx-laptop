@@ -140,10 +140,6 @@ dmg_package 'Wine' do
   source 'http://mirrors.nolabelstudios.com/mikesmassivemess/files/WineBottlerCombo_1.2.5.dmg'
 end
 
-dmg_package 'Slink' do
-  source 'http://slinkware.com/slink/download.php'
-end
-
 # Does not handle having another name for the installer inside the dmg
 #dmg_package 'Fitbit' do
 #  volumes_dir 'Fitbit-FitbitTracker-v1.8.2.10-2012-04-19'
@@ -175,7 +171,12 @@ dmg_package 'Vagrant' do
   package_id 'com.vagrant.vagrant'
 end
 
-directory '/Applications/Network'
+
+dmg_package 'Slink' do
+  source 'http://slinkware.com/slink/download.php'
+  destination '/Applications/Network/'
+end
+
 dmg_package 'JollysFastVNC' do
   volumes_dir 'JollysFastVNC.1.42.(1221501).10.7'
   source 'http://www.jinx.de/JollysFastVNC_files/JollysFastVNC.current.dmg'
