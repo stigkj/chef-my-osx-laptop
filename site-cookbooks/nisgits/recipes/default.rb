@@ -82,7 +82,7 @@ git "#{ENV['HOME']}/.oh-my-zsh" do
   user node[:nisgits][:user]
   group 'staff'
   action :checkout
-  not_if "test -d #{ENV['HOME']}/.oh-my-zsh"
+  not_if { ::File.exists?("#{ENV['HOME']}/.oh-my-zsh") }
 end
 
 # For scripts not handled through Homebrew
