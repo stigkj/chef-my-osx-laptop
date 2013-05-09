@@ -55,6 +55,8 @@ package 'phantomjs'             # A headless WebKit scriptable with JavaScript, 
 # t,                    # great command line twitter client
 # omglog                # very nice realtime git log graph
 
+# TODO install java 1.7 with chef
+#include_recipe 'java::oracle'
 # TODO need sudo rights
 #user node[:nisgits][:user] do
 #  shell '/usr/local/bin/zsh'
