@@ -32,6 +32,8 @@ package 'fasd'                  # Quickly reference files/folders used on comman
 package 'brew-pip'              # Install python packages through brew pip .... NB! Must link pip into /usr/bin for this to work
 package 'drip'                  # A faster JVM launcher
 # TODO nvm or n - node version managers, ala rvm (https://github.com/creationix/nvm, https://github.com/visionmedia/n)
+package 'npm'                   # The node.js package manager, will also install node.js
+package 'phantomjs'             # A headless WebKit scriptable with JavaScript, very good for headless website testing
 
 # Use chruby (https://github.com/postmodern/chruby) instead?
 node['rbenv']['user_installs'] = [
