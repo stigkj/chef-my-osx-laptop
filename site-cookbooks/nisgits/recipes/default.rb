@@ -233,7 +233,13 @@ end
 
 # TODO Make printing as black/white default
 
-directory '/Applications/Media'
+bash 'create /Applications/Media' do
+  code <<-EOH
+    mkdir -p /Applications/Media
+    EOH
+  not_if { ::File.exists?('/Applications/Media') }
+end
+
 dmg_package 'Spotify' do
   source 'http://download.spotify.com/Spotify.dmg'
   destination '/Applications/Media/'
