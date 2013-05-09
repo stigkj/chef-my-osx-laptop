@@ -84,6 +84,16 @@ git "#{ENV['HOME']}/.oh-my-zsh" do
   not_if { ::File.exists?("#{ENV['HOME']}/.oh-my-zsh") }
 end
 
+directory "#{ENV['HOME']}/.sbt/plugins" do
+  recursive true
+end
+file "#{ENV['HOME']}/.sbt/plugins/build.sbt" do
+  content <<-EOH
+    addSbtPlugin("com.github.mpeltonen" % "sbt-idea" % "1.4.0")
+    EOH
+  action :create_if_missing
+end
+
 dmg_package 'Google Chrome' do
   dmg_name 'googlechrome'
   source 'https://dl-ssl.google.com/chrome/mac/stable/GGRM/googlechrome.dmg'
