@@ -111,7 +111,7 @@ zip_app_package 'Alfred 2' do
   source 'http://cachefly.alfredapp.com/Alfred_2.0.3_187.zip'
 end
 
-dmg_package 'Sublime Text 3012b' do
+dmg_package 'Sublime Text' do
   source 'http://c758482.r82.cf2.rackcdn.com/Sublime%20Text%20Build%203021.dmg'
 end
 link "#{ENV['HOME']}/Dropbox/bin/subl" do
