@@ -97,6 +97,12 @@ dmg_package 'Dropbox' do
   checksum 'b4ea620ca22b0517b75753283ceb82326aca8bc3c86212fbf725de6446a96a13'
 end
 
+ruby_block 'stop chef run if Dropbox is not setup' do
+  block do
+    Chef::Application.fatal!('Setup Dropbox before going further', 100) if !File.exists?('/Users/stiklepp/Dropbox')
+  end
+end
+
 zip_app_package '1Password' do
   source 'https://d13itkw33a7sus.cloudfront.net/dist/1P/mac/1Password-3.8.20.zip'
 end
