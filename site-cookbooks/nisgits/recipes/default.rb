@@ -57,11 +57,15 @@ package 'phantomjs'             # A headless WebKit scriptable with JavaScript, 
 
 # TODO install java 1.7 with chef
 #include_recipe 'java::oracle'
-# TODO need sudo rights
-#user node[:nisgits][:user] do
-#  shell '/usr/local/bin/zsh'
-#  action :manage
-#end
+
+bash 'setup Homebrew zsh as default shell' do
+  code <<-EOH
+    echo 'setup Homebrew zsh as default shell'
+    echo '/usr/local/bin/zsh' | sudo tee -a /etc/shells
+    chsh -s /usr/local/bin/zsh
+    EOH
+  not_if { ENV['SHELL'] == '/usr/local/bin/zsh' }
+end
 
 # TODO checkout VIM stuff: http://skwp.github.com/dotfiles/
 
