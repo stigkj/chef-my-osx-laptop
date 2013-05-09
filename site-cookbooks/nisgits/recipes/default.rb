@@ -35,36 +35,25 @@ package 'drip'                  # A faster JVM launcher
 package 'npm'                   # The node.js package manager, will also install node.js
 package 'phantomjs'             # A headless WebKit scriptable with JavaScript, very good for headless website testing
 
+# TODO install ruby 1.9.x with rbenv/ruby_build first before running chef-solo
 # Use chruby (https://github.com/postmodern/chruby) instead?
-node['rbenv']['user_installs'] = [
-  { 'user'    => 'gits',
-    'rubies'  => ['1.9.3-p194'],
-    'global'  => '1.9.3-p194',
-    'gems'    => {
-      '1.9.3-p194' => [
-        { 'name' => 'git-up' },
-        { 'name' => 'github' },               # Command line accesss to GitHub
-        { 'name' => 'ghi' },                  # Command line accesss to GitHub Issues
-        { 'name' => 'git-pulls' },            # Command line accesss to GitHub pull requests
-        { 'name' => 'bundler' },
-        { 'name' => 'berkshelf' },
-        { 'name' => 'librarian-puppet' },
-        { 'name' => 'tres' },
-        { 'name' => 'showoff' },
-        { 'name' => 'bcat' },                 # a pipe-to-browser utility
-        { 'name' => 'pry' },                  # a great Ruby REPL (irb on steriods)
-        { 'name' => 'shaft' },                # an SSH tunnel assistant for the command line
-        { 'name' => 'tux' },                  # an interactive console for Sinatra (https://github.com/cldwalker/tux)
-        { 'name' => 't' },                    # great command line twitter client
-        { 'name' => 'omglog' }                # very nice realtime git log graph
-      ]
-    }
-  }
-]
 
-#include_recipe 'npm'
-include_recipe 'ruby_build'
-include_recipe 'rbenv::user'
+# TODO install these CLI gems through brew gem:
+# git-up,
+# github,               # Command line accesss to GitHub
+# ghi,                  # Command line accesss to GitHub Issues
+# git-pulls,            # Command line accesss to GitHub pull requests
+# bundler,
+# berkshelf,
+# librarian-puppet,
+# tres,
+# showoff,
+# bcat,                 # a pipe-to-browser utility
+# pry,                  # a great Ruby REPL (irb on steriods)
+# shaft,                # an SSH tunnel assistant for the command line
+# tux,                  # an interactive console for Sinatra (https://github.com/cldwalker/tux)
+# t,                    # great command line twitter client
+# omglog                # very nice realtime git log graph
 
 # TODO need sudo rights
 #user node[:nisgits][:user] do
