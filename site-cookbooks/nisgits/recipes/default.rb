@@ -379,6 +379,7 @@ end
   end
 end
 
+# Use jenv instead? see below
 bash 'install gvmtool' do
   code <<-EOH
     curl -s get.gvmtool.net | bash
@@ -386,6 +387,13 @@ bash 'install gvmtool' do
   not_if { ::File.exists?("#{ENV['HOME']}/.gvm")}
 end
 # TODO look at find-gradle (https://github.com/cbeams/shell-scripts)
+
+bash 'install jenv' do
+  code <<-EOH
+    curl -s get.jvmtool.mvnsearch.org | bash
+    EOH
+  not_if { ::File.exists?("#{ENV['HOME']}/.jenv")}
+end
 
 # TODO
 # gems:
