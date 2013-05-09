@@ -421,5 +421,4 @@ end
 #   glances           # Curses based monitoring tool
 
 include_recipe 'nisgits::hacks'
-include_recipe 'nisgits::nos_git_repos'
 include_recipe 'nisgits::framework_git_repos'
