@@ -60,9 +60,6 @@ package 'pstree'                # Show running processes in a hierarchy
 # TODO install java 1.7 with chef
 #include_recipe 'java::oracle'
 
-# Directory used for caching ssh sessions
-directory "#{ENV['HOME']}/.ssh/sockets"
-
 bash 'setup Homebrew zsh as default shell' do
   code <<-EOH
     echo 'setup Homebrew zsh as default shell'
@@ -357,9 +354,13 @@ end
 link "#{ENV['HOME']}/.ssh" do
   to "#{ENV['HOME']}/Dropbox/.ssh"
 end
+# Directory used for caching ssh sessions
+directory "#{ENV['HOME']}/.ssh/sockets"
+
 Dir.glob("#{ENV['HOME']}/.ssh/*") do |ssh_file|
+  fileMode = File.file?(ssh_file) ? '600' : '700'
   file ssh_file do
-    mode '600'
+    mode fileMode
   end
 end
 
