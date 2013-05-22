@@ -186,6 +186,11 @@ end
 
 directory '/Applications/Network'
 
+zip_app_package 'HipChat' do
+  source 'http://downloads.hipchat.com.s3.amazonaws.com/mac-beta/HipChat-0.33-01uennzomg01wmg.zip'
+  destination '/Applications/Network/'
+end
+
 dmg_package 'Slink' do
   source 'http://slinkware.com/slink/download.php'
   destination '/Applications/Network/'
