@@ -194,6 +194,18 @@ dmg_package 'Vagrant' do
   package_id 'com.vagrant.vagrant'
 end
 
+remote_file "#{Chef::Config[:file_cache_path]}/Mailplane_3_676.tbz" do
+  source 'http://dist.mailplaneapp.com/builds/Mailplane_3_676.tbz'
+  action :create_if_missing
+  not_if { ::File.exists?('/Applications/Network/Mailplane.app') }
+end
+bash 'extract Mailplane to /Applications/Network' do
+  code <<-EOH
+    echo 'extract Mailplane to /Applications/Network'
+    tar -C /Applications/Network/ -x -f #{Chef::Config[:file_cache_path]}/Mailplane_3_676.tbz
+    EOH
+  not_if { ::File.exists?('/Applications/Network/Mailplane.app') }
+end
 
 zip_app_package 'HipChat' do
   source 'http://downloads.hipchat.com.s3.amazonaws.com/mac-beta/HipChat-0.33-01uennzomg01wmg.zip'
@@ -256,6 +268,7 @@ dmg_package 'Spotify' do
   source 'http://download.spotify.com/Spotify.dmg'
   destination '/Applications/Media/'
 end
+
 # TODO install:
 #   * MPlayer OSX extended (zipapp)
 #   * Beyond Compare via WineBottler
@@ -283,7 +296,6 @@ end
 #   * Prey (preyproject.com) for tracking devices (phones, computers, etc)
 #   * localtunnel (expose local web server on internet https://github.com/progrium/localtunnel)
 #   * Little Snitch (application firewall http://www.obdev.at/products/littlesnitch/index.html)
-#   * MailPlane
 #   * git-sweep (remove remote branches merged into master)
 #   * maid (cleans up files, Hazel for hackers)
 #   * httpie (command line http client)
