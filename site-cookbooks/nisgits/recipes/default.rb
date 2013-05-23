@@ -183,8 +183,8 @@ zip_app_package 'GitX' do
 end
 
 dmg_package 'VirtualBox' do
-  source 'http://download.virtualbox.org/virtualbox/4.1.18/VirtualBox-4.1.18-78361-OSX.dmg'
-  type 'mpkg'
+  source 'http://download.virtualbox.org/virtualbox/4.2.12/VirtualBox-4.2.12-84980-OSX.dmg'
+  type 'pkg'
 end
 
 # TODO Use brew cask install vagrant
