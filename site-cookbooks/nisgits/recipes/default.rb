@@ -103,6 +103,10 @@ file "#{ENV['HOME']}/.sbt/plugins/build.sbt" do
   action :create_if_missing
 end
 
+%w{Development Network Media}.each do |dir|
+  directory "/Applications/#{dir}"
+end
+
 dmg_package 'Google Chrome' do
   dmg_name 'googlechrome'
   source 'https://dl-ssl.google.com/chrome/mac/stable/GGRM/googlechrome.dmg'
@@ -165,8 +169,6 @@ end
 #  type 'mpkg'
 #end
 
-directory '/Applications/Development'
-
 dmg_package 'Leda-IU-129.400' do
   source 'http://download.jetbrains.com/idea/ideaIU-129.400.dmg'
   destination '/Applications/Development/'
@@ -192,7 +194,6 @@ dmg_package 'Vagrant' do
   package_id 'com.vagrant.vagrant'
 end
 
-directory '/Applications/Network'
 
 zip_app_package 'HipChat' do
   source 'http://downloads.hipchat.com.s3.amazonaws.com/mac-beta/HipChat-0.33-01uennzomg01wmg.zip'
@@ -251,13 +252,10 @@ end
 
 # TODO Make printing as black/white default
 
-directory '/Applications/Media'
-
 dmg_package 'Spotify' do
   source 'http://download.spotify.com/Spotify.dmg'
   destination '/Applications/Media/'
 end
-
 # TODO install:
 #   * MPlayer OSX extended (zipapp)
 #   * Beyond Compare via WineBottler
