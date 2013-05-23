@@ -40,6 +40,14 @@ package 'pstree'                # Show running processes in a hierarchy
 # TODO install ruby 1.9.x with rbenv/ruby_build first before running chef-solo
 # Use chruby (https://github.com/postmodern/chruby) instead?
 
+git "#{ENV['HOME']}/.rbenv/plugins/rbenv-gem-rehash" do
+  repository 'git://github.com/sstephenson/rbenv-gem-rehash.git'
+  reference 'master'
+  action :checkout
+  not_if "test -d #{ENV['HOME']}/.rbenv/plugins/rbenv-gem-rehash"
+end
+
+
 # TODO install these CLI gems through brew gem:
 # git-up,
 # github,               # Command line accesss to GitHub
