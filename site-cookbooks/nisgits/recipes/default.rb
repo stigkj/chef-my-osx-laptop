@@ -86,6 +86,15 @@ link "#{ENV['HOME']}/.zsh_history" do
   to "#{ENV['HOME']}/Dropbox/.zsh_history"
 end
 
+# Setup gradle configuration
+directory "#{ENV['HOME']}/.gradle"
+link "#{ENV['HOME']}/.gradle/init.gradle" do
+  to "#{ENV['HOME']}/Dropbox/Gradle/init.gradle"
+end
+link "#{ENV['HOME']}/.gradle/gradle.properties" do
+  to "#{ENV['HOME']}/Dropbox/Gradle/gradle.properties"
+end
+
 git "#{ENV['HOME']}/.oh-my-zsh" do
   repository 'https://github.com/robbyrussell/oh-my-zsh.git'
   reference 'master'
