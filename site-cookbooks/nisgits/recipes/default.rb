@@ -375,6 +375,7 @@ end
 # TODO improve cookbook by following http://devopsanywhere.blogspot.no/2012/10/a-year-with-chef.html
 # TODO improve cookbook by using http://acrmp.github.com/foodcritic
 # TODO test cookbook with Chefspec/minitest-chef-handler (@ github.com/acrmp)
+# TODO look at these OS X cookbooks: https://github.com/josh/osx-cookbooks
 
 # TODO dmg_package does not handle a .pkg; do it "manually"
 #dmg_package 'Graphviz' do
