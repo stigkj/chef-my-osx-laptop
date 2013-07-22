@@ -189,6 +189,8 @@ dmg_package 'Cardea-IU-130.1179' do
   destination '/Applications/Development/'
 end
 
+dmg_package 'TriggerToolkit' do
+  source 'https://toolkit-installer.s3.amazonaws.com/3.3.54/TriggerToolkit.dmg'
   destination '/Applications/Development/'
 end
 
