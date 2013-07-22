@@ -294,6 +294,11 @@ dmg_package 'Spotify' do
   destination '/Applications/Media/'
 end
 
+dmg_package 'Picturelife' do
+  source 'https://s3.amazonaws.com/download.picturelife.com/mac/Picturelife.dmg'
+  destination '/Applications/Media/'
+end
+
 # TODO install:
 #   * MPlayer OSX extended (zipapp)
 #   * Beyond Compare via WineBottler
