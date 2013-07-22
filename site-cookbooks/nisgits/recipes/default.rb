@@ -184,8 +184,11 @@ end
 #  type 'mpkg'
 #end
 
-dmg_package 'Cardea-IU-130.555' do
-  source 'http://download.jetbrains.com/idea/ideaIU-130.555.dmg'
+dmg_package 'Cardea-IU-130.1179' do
+  source 'http://download.jetbrains.com/idea/ideaIU-130.1179.dmg'
+  destination '/Applications/Development/'
+end
+
   destination '/Applications/Development/'
 end
 
