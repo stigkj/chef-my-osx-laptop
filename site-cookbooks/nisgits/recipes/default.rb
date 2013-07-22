@@ -232,6 +232,11 @@ zip_app_package 'HipChat' do
   destination '/Applications/Network/'
 end
 
+zip_app_package 'CloudPull' do
+  source 'http://downloads.goldenhillsoftware.com/cloudpull/CloudPull.zip'
+  destination '/Applications/Network/'
+end
+
 dmg_package 'Slink' do
   source 'http://slinkware.com/slink/download.php'
   destination '/Applications/Network/'
