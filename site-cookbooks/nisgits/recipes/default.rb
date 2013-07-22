@@ -449,6 +449,7 @@ bash 'install gvmtool' do
 end
 # TODO look at find-gradle (https://github.com/cbeams/shell-scripts)
 
+# TODO fix for zsh, look at how https://github.com/gcuisinier/jenv & gvm does it
 bash 'install jenv' do
   code <<-EOH
     curl -s get.jvmtool.mvnsearch.org | bash
