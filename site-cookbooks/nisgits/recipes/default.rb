@@ -478,7 +478,7 @@ end
 # TODO
 # python: NB! Use brew pip to install these
 #   pip / virtualenv / mkvirtualenv (http://gillesfabio.com/blog/2011/03/01/rvm-for-pythonistas-virtualenv-for-rubyists)
-#   littlechef
+#   littlechef        # Use chef-solo with extensions on remote machines
 #   mercurial         # Version control system
 #   glances           # Curses based monitoring tool
 
