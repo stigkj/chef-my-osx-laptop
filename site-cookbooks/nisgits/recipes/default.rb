@@ -373,6 +373,7 @@ end
 #   * PostgreSQL (http://postgresapp.com)
 #   * Shortcat ("click" buttons with the keyboard http://shortcatapp.com)
 #   * Sidestep (on unknown wireless networks route web traffic through proxy http://chetansurpur.com/projects/sidestep/)
+#   * Cloud Mate (control the files in iCloud http://www.rwe-uk.com/app/cloud-mate)
 #   * Mouse and keyboard sharing:
 #     * http://www.keyboard-and-mouse-sharing.com
 #     * http://avatron.com/apps/air-display
