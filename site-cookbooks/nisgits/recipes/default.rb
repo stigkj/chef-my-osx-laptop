@@ -481,6 +481,8 @@ end
 #   littlechef        # Use chef-solo with extensions on remote machines
 #   mercurial         # Version control system
 #   glances           # Curses based monitoring tool
+#   mitmproxy         # Interactive console program to inspect and edit network flows on the fly
+#   mitmdump          # An improved tcpdump for HTTP
 
 include_recipe 'nisgits::hacks'
 include_recipe 'nisgits::framework_git_repos'
