@@ -152,6 +152,8 @@ end
 # TODO plugins for Sublime
 #  - emmet-sublime (Improves HTML & CSS workflow, https://github.com/sergeche/emmet-sublime)
 #  - floobits (Cross-editor real-time collaboration)
+#  - SublimeXiki (Xiki in the editor, https://github.com/lunixbochs/SublimeXiki)
+#  - Tern (JavaScript code completion server, https://github.com/marijnh/tern_for_sublime)
 
 dmg_package 'Texts' do
   source 'http://www.texts.io/Texts-0.13.dmg'
