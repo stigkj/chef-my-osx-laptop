@@ -150,7 +150,7 @@ link "#{ENV['HOME']}/Dropbox/bin/subl" do
 end
 
 # TODO plugins for Sublime
-#  - emmet-sublime
+#  - emmet-sublime (Improves HTML & CSS workflow, https://github.com/sergeche/emmet-sublime)
 #  - floobits (Cross-editor real-time collaboration)
 
 dmg_package 'Texts' do
