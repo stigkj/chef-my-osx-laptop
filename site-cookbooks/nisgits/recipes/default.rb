@@ -315,6 +315,7 @@ end
 #   * Scala/sbt (brew install *)
 #   * Fantastical
 #   * What to use for photos: Picturelife, Adobe Revel, Flickr or Google Drive?
+#   * foundapp.com (search across the local machine and cloud services like gmail, dropbox, evernote, etc)
 #   * Send to Kindle
 #   * Kindle for Mac
 #   * CloudApp (file sharing http://getcloudapp.com also in App Store)
