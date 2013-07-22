@@ -314,6 +314,7 @@ end
 #   * Play (brew install play)
 #   * Scala/sbt (brew install *)
 #   * Fantastical
+#   * What to use for photos: Picturelife, Adobe Revel, Flickr or Google Drive?
 #   * Send to Kindle
 #   * Kindle for Mac
 #   * CloudApp (file sharing http://getcloudapp.com also in App Store)
