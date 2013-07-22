@@ -40,6 +40,13 @@ mac_os_x_userdefaults 'Finder: show all filename extensions' do
   type 'bool'
 end
 
+mac_os_x_userdefaults 'TimeMachine: show unsupported network volumes' do
+  domain 'com.apple.systempreferences'
+  key 'TMShowUnsupportedNetworkVolumes'
+  value 'true'
+  type 'bool'
+end
+
 mac_os_x_userdefaults 'Remove the auto-hiding Dock delay' do
   domain 'com.apple.dock'
   key 'autohide-delay'
