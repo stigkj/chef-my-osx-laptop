@@ -19,6 +19,13 @@ mac_os_x_userdefaults 'Finder: show hidden files by default' do
   type 'bool'
 end
 
+mac_os_x_userdefaults 'Disable the warning when changing a file extension' do
+  domain 'com.apple.finder'
+  key 'FXEnableExtensionChangeWarning'
+  value 'false'
+  type 'bool'
+end
+
 mac_os_x_userdefaults 'Finder: show all filename extensions' do
   domain 'NSGlobalDomain'
   key 'AppleShowAllExtensions'
@@ -90,8 +97,6 @@ end
 # Display full POSIX path as Finder window title
 #defaults write com.apple.finder _FXShowPosixPathInTitle -bool true
 
-# Disable the warning when changing a file extension
-#defaults write com.apple.finder FXEnableExtensionChangeWarning -bool false
 
 # Avoid creating .DS_Store files on network volumes
 #defaults write com.apple.desktopservices DSDontWriteNetworkStores -bool true
