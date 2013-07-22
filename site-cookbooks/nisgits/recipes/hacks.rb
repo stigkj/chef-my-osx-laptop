@@ -61,6 +61,14 @@ mac_os_x_userdefaults 'Automatically hide and show the Dock' do
   type 'bool'
 end
 
+bash 'enable access for assistive devices' do
+  code <<-EOH
+    sudo touch /private/var/db/.AccessibilityAPIEnabled
+    EOH
+  not_if { ::File.exists?('/private/var/db/.AccessibilityAPIEnabled') }
+end
+
+
 # Look at this: https://github.com/mathiasbynens/dotfiles/blob/master/.osx
 
 # Look at http://chris-gerke.blogspot.no/2012/03/mac-osx-soe-master-image-day-6.html
@@ -71,8 +79,6 @@ end
 # Remove a keyboard shortcut, can use the same for registering shortcuts
 # defaults write -g NSUserKeyEquivalents -dict-add "Special Characters..." nul
 
-# TODO Enable access for assistive devices
-# sudo touch /private/var/db/.AccessibilityAPIEnabled
 
 # TODO turn off remote
 
