@@ -173,6 +173,10 @@ dmg_package 'Wine' do
   source 'http://mirrors.nolabelstudios.com/mikesmassivemess/files/WineBottlerCombo_1.2.5.dmg'
 end
 
+dmg_package 'Disk Order' do
+  source 'http://likemac.ru/download/disk-order_ub.dmg'
+end
+
 # Does not handle having another name for the installer inside the dmg
 #dmg_package 'Fitbit' do
 #  volumes_dir 'Fitbit-FitbitTracker-v1.8.2.10-2012-04-19'
