@@ -40,6 +40,34 @@ mac_os_x_userdefaults 'Finder: show all filename extensions' do
   type 'bool'
 end
 
+mac_os_x_userdefaults 'Finder: show status bar' do
+  domain 'com.apple.finder'
+  key 'ShowStatusBar'
+  value 'true'
+  type 'bool'
+end
+
+mac_os_x_userdefaults 'Finder: show path bar' do
+  domain 'com.apple.finder'
+  key 'ShowPathBar'
+  value 'true'
+  type 'bool'
+end
+
+mac_os_x_userdefaults 'Finder: allow text selection in Quick Look' do
+  domain 'com.apple.finder'
+  key 'QLEnableTextSelection'
+  value 'true'
+  type 'bool'
+end
+
+mac_os_x_userdefaults 'Finder: display full POSIX path as window title' do
+  domain 'com.apple.finder'
+  key '_FXShowPosixPathInTitle'
+  value 'true'
+  type 'bool'
+end
+
 mac_os_x_userdefaults 'TimeMachine: show unsupported network volumes' do
   domain 'com.apple.systempreferences'
   key 'TMShowUnsupportedNetworkVolumes'
