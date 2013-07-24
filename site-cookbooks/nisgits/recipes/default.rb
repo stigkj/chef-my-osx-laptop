@@ -130,6 +130,7 @@ end
 
 dmg_package 'A Better Finder Rename 9' do
   source 'http://www.publicspace.net/download/ABFRX9.dmg'
+  accept_eula true
 end
 
 ruby_block 'stop chef run if Dropbox is not setup' do
