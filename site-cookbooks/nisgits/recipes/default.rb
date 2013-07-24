@@ -128,6 +128,10 @@ dmg_package 'Dropbox' do
   checksum 'b4ea620ca22b0517b75753283ceb82326aca8bc3c86212fbf725de6446a96a13'
 end
 
+dmg_package 'A Better Finder Rename 9' do
+  source 'http://www.publicspace.net/download/ABFRX9.dmg'
+end
+
 ruby_block 'stop chef run if Dropbox is not setup' do
   block do
     Chef::Application.fatal!('Setup Dropbox before going further', 100) if !File.exists?('/Users/stiklepp/Dropbox')
