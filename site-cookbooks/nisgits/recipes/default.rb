@@ -222,14 +222,14 @@ end
 remote_file "#{Chef::Config[:file_cache_path]}/Mailplane_3_676.tbz" do
   source 'http://dist.mailplaneapp.com/builds/Mailplane_3_676.tbz'
   action :create_if_missing
-  not_if { ::File.exists?('/Applications/Network/Mailplane.app') }
+  not_if { ::File.exists?('/Applications/Network/Mailplane 3.app') }
 end
 bash 'extract Mailplane to /Applications/Network' do
   code <<-EOH
     echo 'extract Mailplane to /Applications/Network'
     tar -C /Applications/Network/ -x -f #{Chef::Config[:file_cache_path]}/Mailplane_3_676.tbz
     EOH
-  not_if { ::File.exists?('/Applications/Network/Mailplane.app') }
+  not_if { ::File.exists?('/Applications/Network/Mailplane 3.app') }
 end
 
 zip_app_package 'HipChat' do
