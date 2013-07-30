@@ -375,6 +375,7 @@ end
 #   * redsocks (transparent socks redirector http://darkk.net.ru/redsocks)
 #   * toggle-extra (toggles OSX menu icons on/off https://github.com/adamv/toggle-extra)
 #   * GitHub notifier (https://github.com/ctshryock/GithubNotifier, https://github.com/psionides/gitifier)
+#   * GitHub cli (https://github.com/myusuf3/octogit)
 #   * slate (window manager https://github.com/jigish/slate)
 #   * Create VirtualBox VMs for each IE version (https://github.com/xdissent/ievms)
 #   * bunyip (Automate client-side unit testing in real browsers http://ryanseddon.github.com/bunyip)
