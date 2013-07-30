@@ -3,6 +3,7 @@ package 'lesspipe'
 package 'groovy'
 package 'ruby-build'
 package 'git-flow'
+package 'git-extras'
 package 'tig'
 package 'tree'
 # TODO fix installation
