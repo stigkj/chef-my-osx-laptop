@@ -56,6 +56,7 @@ git "#{ENV['HOME']}/.rbenv/plugins/rbenv-gem-rehash" do
   not_if "test -d #{ENV['HOME']}/.rbenv/plugins/rbenv-gem-rehash"
 end
 
+# TODO do not install docs via gem, make a ~/.gemrc or something
 
 # TODO install these CLI gems through brew gem:
 # git-up,
