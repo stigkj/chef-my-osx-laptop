@@ -388,6 +388,7 @@ end
 #   * mysql using "bash <(curl -Ls http://git.io/eUx7rg)"
 #   * Sequel Pro (nice mysql gui http://www.sequelpro.com)
 #   * PostgreSQL (http://postgresapp.com)
+#   * Inpaint (Easily remove unwanted elements from pictures, have license for v3.0 http://www.theinpaint.com/)
 #   * Shortcat ("click" buttons with the keyboard http://shortcatapp.com)
 #   * Sidestep (on unknown wireless networks route web traffic through proxy http://chetansurpur.com/projects/sidestep/)
 #   * Cloud Mate (control the files in iCloud http://www.rwe-uk.com/app/cloud-mate)
