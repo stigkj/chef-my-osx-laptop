@@ -142,6 +142,19 @@ dmg_package 'Dropbox' do
   checksum 'b4ea620ca22b0517b75753283ceb82326aca8bc3c86212fbf725de6446a96a13'
 end
 
+remote_file "#{Chef::Config[:file_cache_path]}/slate-latest.tar.gz" do
+  source 'http://slate.ninjamonkeysoftware.com/versions/slate-latest.tar.gz'
+  action :create_if_missing
+  not_if { ::File.exists?('/Applications/Slate.app') }
+end
+bash 'extract slate to /Applications' do
+  code <<-EOH
+    echo 'extract slate to /Applications'
+    tar -C /Applications/ -x -f #{Chef::Config[:file_cache_path]}/slate-latest.tar.gz
+    EOH
+  not_if { ::File.exists?('/Applications/Slate.app') }
+end
+
 dmg_package 'A Better Finder Rename 9' do
   source 'http://www.publicspace.net/download/ABFRX9.dmg'
   accept_eula true
