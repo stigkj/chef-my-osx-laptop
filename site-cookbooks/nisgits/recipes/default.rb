@@ -326,6 +326,7 @@ end
 #   * resty (curl -L http://github.com/micha/resty/raw/master/resty > resty)
 #   * Gmvault (http://gmvault.org)
 #   * Yeoman (yeoman.io)
+#   * PopClip (select text and do many things with it (http://pilotmoon.com/popclip))
 #   * Play (brew install play)
 #   * Scala/sbt (brew install *)
 #   * Fantastical
