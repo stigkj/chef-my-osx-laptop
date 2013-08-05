@@ -132,6 +132,10 @@ dmg_package 'Google Chrome' do
   checksum '7daa2dc5c46d9bfb14f1d7ff4b33884325e5e63e694810adc58f14795165c91a'
 end
 
+zip_app_package 'Fantastical' do
+  source 'http://cdn.flexibits.com/Fantastical_1.3.9.zip'
+end
+
 dmg_package 'Dropbox' do
   volumes_dir 'Dropbox Installer'
   source 'http://www.dropbox.com/download?plat=mac'
