@@ -142,6 +142,13 @@ dmg_package 'Dropbox' do
   checksum 'b4ea620ca22b0517b75753283ceb82326aca8bc3c86212fbf725de6446a96a13'
 end
 
+ruby_block 'stop chef run if Dropbox is not setup' do
+  block do
+    Chef::Application.fatal!('Setup Dropbox before going further', 100)
+  end
+  not_if { ::File.exists?('/Users/stiklepp/Dropbox') }
+end
+
 remote_file "#{Chef::Config[:file_cache_path]}/slate-latest.tar.gz" do
   source 'http://slate.ninjamonkeysoftware.com/versions/slate-latest.tar.gz'
   action :create_if_missing
@@ -158,12 +165,6 @@ end
 dmg_package 'A Better Finder Rename 9' do
   source 'http://www.publicspace.net/download/ABFRX9.dmg'
   accept_eula true
-end
-
-ruby_block 'stop chef run if Dropbox is not setup' do
-  block do
-    Chef::Application.fatal!('Setup Dropbox before going further', 100) if !File.exists?('/Users/stiklepp/Dropbox')
-  end
 end
 
 zip_app_package '1Password' do
