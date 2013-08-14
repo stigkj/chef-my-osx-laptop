@@ -1,6 +1,7 @@
 package 'zsh'
 package 'lesspipe'
 package 'groovy'
+package 'python'
 package 'ruby-build'
 package 'git-flow'
 package 'git-extras'
@@ -10,6 +11,7 @@ package 'tree'
 package 'httpry'
 package 'sslscan'
 package 'ssldump'
+package 'wget'
 package 'ack'
 package 'gecode'
 package 'p7zip'
@@ -20,6 +22,7 @@ package 'jq'                    # Lightweight and flexible command-line JSON pro
 package 'the_silver_searcher'   # Ag, a very fast code-searching tool, faster than ack
 package 'socat'                 # A multipurpose network tool
 package 'gist'                  # Pastes text into a new gist on gist.github.com
+package 'hub'                   # Wrapper for git that makes it easier to work with github.com from command line
 package 'rest-shell'            # Command-line shell for interacting with Spring HATEOAS-compliant REST resources
 package 'task-spooler'          # Easily queue jobs from the terminal
 package 'trash'                 # Moves files/folders to the OS X trash (TODO alias to rm?)
