@@ -268,6 +268,11 @@ bash 'extract Mailplane to /Applications/Network' do
   not_if { ::File.exists?('/Applications/Network/Mailplane 3.app') }
 end
 
+zip_app_package 'AirMail Beta' do
+  source 'https://dl0tgz6ee3upo.cloudfront.net/production/app/builds/000/480/113/original/37ff8263b894cdf279d01b9381ec4181/AirMail_Beta.app.zip'
+  destination '/Applications/Network/'
+end
+
 zip_app_package 'HipChat' do
   source 'http://downloads.hipchat.com.s3.amazonaws.com/mac-beta/HipChat-0.33-01uennzomg01wmg.zip'
   destination '/Applications/Network/'
