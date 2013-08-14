@@ -68,9 +68,9 @@ end
 
 # TODO install these CLI gems through brew gem:
 # git-up,
-# github,               # Command line accesss to GitHub
-# ghi,                  # Command line accesss to GitHub Issues
-# git-pulls,            # Command line accesss to GitHub pull requests
+# git-pulls,            # Command line accesss to GitHub pull requests (https://github.com/schacon/git-pulls)
+# ghi,                  # Command line accesss to GitHub issues (https://github.com/stephencelis/ghi)
+# git-pr,               # Command line accesss to GitHub pull requests (https://metacpan.org/module/App::GitHubPullRequest)
 # bundler,
 # berkshelf,
 # librarian-puppet,
