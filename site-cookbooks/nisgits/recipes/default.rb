@@ -244,7 +244,7 @@ zip_app_package 'GitX' do
 end
 
 dmg_package 'VirtualBox' do
-  source 'http://download.virtualbox.org/virtualbox/4.2.12/VirtualBox-4.2.12-84980-OSX.dmg'
+  source 'http://download.virtualbox.org/virtualbox/4.2.16/VirtualBox-4.2.16-86992-OSX.dmg'
   type 'pkg'
 end
 
