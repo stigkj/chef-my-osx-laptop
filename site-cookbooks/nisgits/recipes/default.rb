@@ -250,7 +250,7 @@ end
 
 # TODO Use brew cask install vagrant
 dmg_package 'Vagrant' do
-  source 'http://files.vagrantup.com/packages/7e400d00a3c5a0fdf2809c8b5001a035415a607b/Vagrant-1.2.2.dmg'
+  source 'http://files.vagrantup.com/packages/7ec0ee1d00a916f80b109a298bab08e391945243/Vagrant-1.2.7.dmg'
   type 'pkg'
   package_id 'com.vagrant.vagrant'
 end
