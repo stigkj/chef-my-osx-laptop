@@ -219,6 +219,13 @@ dmg_package 'Disk Order' do
   source 'http://likemac.ru/download/disk-order_ub.dmg'
 end
 
+# Canon MP760 printer driver
+dmg_package 'PrinterDriver_MP760_105102' do
+  volumes_dir 'PrinterDriver_MP760'
+  source 'http://gdlp01.c-wss.com/gds/7/0100003867/01/mcpd-mac-mp760-10_51_2-ea11.dmg'
+  type 'pkg'
+  package_id 'jp.co.canon.pkg.MP760-105102'
+end
 
 dmg_package 'Cardea-IU-130.1486' do
   source 'http://download.jetbrains.com/idea/ideaIU-130.1486.dmg'
