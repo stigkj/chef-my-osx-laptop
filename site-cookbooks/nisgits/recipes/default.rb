@@ -237,6 +237,11 @@ dmg_package 'TriggerToolkit' do
   destination '/Applications/Development/'
 end
 
+osx_pkg_package 'Heroku' do
+  source 'http://assets.heroku.com/heroku-toolbelt/heroku-toolbelt.pkg'
+  package_id 'com.heroku.toolbelt'
+end
+
 # TODO install themes for editors, tomorrow-theme or solarized
 # https://raw.github.com/tomislav/osx-lion-terminal.app-colors-solarized/master/Solarized%20Dark.terminal
 
