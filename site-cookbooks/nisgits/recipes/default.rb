@@ -440,6 +440,7 @@ end
 #     * Teleport (http://www.abyssoft.com/software/teleport)
 #   * Brew plugins
 #     * Look at https://github.com/mxcl/homebrew/wiki/External-Commands
+#     * Install extra homebrew repositories through homebrew_tap, look at http://community.opscode.com/cookbooks/applications
 #     * brew-cask (https://github.com/phinze/homebrew-cask)
 #     * brew-pip (https://github.com/josh/brew-pip)
 #     * brew-gem (https://github.com/josh/brew-gem)
