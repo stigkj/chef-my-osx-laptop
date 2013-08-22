@@ -275,6 +275,13 @@ bash 'extract Mailplane to /Applications/Network' do
   not_if { ::File.exists?('/Applications/Network/Mailplane 3.app') }
 end
 
+dmg_package 'Charles' do
+  volumes_dir 'Charles Proxy v3.7'
+  source 'http://www.charlesproxy.com/assets/release/3.7/charles-proxy-3.7-legacy.dmg'
+  destination '/Applications/Network/'
+  accept_eula true
+end
+
 zip_app_package 'AirMail Beta' do
   source 'https://dl0tgz6ee3upo.cloudfront.net/production/app/builds/000/480/113/original/37ff8263b894cdf279d01b9381ec4181/AirMail_Beta.app.zip'
   destination '/Applications/Network/'
