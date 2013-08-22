@@ -14,10 +14,18 @@ GIT
   specs:
     rbenv (0.6.10)
 
+GIT
+  remote: https://github.com/mattdbridges/chef-osx_pkg
+  ref: 1ec3e4e1d157b9d5576428ac26b8a6224efc2f19
+  sha: 1ec3e4e1d157b9d5576428ac26b8a6224efc2f19
+  specs:
+    osx_pkg (0.2.0)
+
 DEPENDENCIES
   dmg (>= 0)
   homebrew (>= 0)
   mac_os_x (>= 0)
+  osx_pkg (>= 0)
   rbenv (>= 0)
   ruby_build (>= 0)
   zip_app (>= 0)

@@ -11,5 +11,7 @@ cookbook 'zip_app'
 cookbook 'rbenv',
   :git => 'https://github.com/fnichol/chef-rbenv', :ref => 'v0.6.10'
 
+cookbook 'osx_pkg',
+  :git => 'https://github.com/mattdbridges/chef-osx_pkg', :ref => '1ec3e4e1d157b9d5576428ac26b8a6224efc2f19'
 # Use platform_packages so one can just list packages (from homebrew) to install?
 # cookbook 'platform_packages'
