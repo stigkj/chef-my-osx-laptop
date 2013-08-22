@@ -308,12 +308,6 @@ dmg_package 'JollysFastVNC' do
   destination '/Applications/Network/'
 end
 
-dmg_package 'IPSecuritas' do
-  accept_eula true
-  source 'http://www.lobotomo.com/products/downloads/IPSecuritas%203.5rc.dmg'
-  destination '/Applications/Network/'
-end
-
 zip_app_package 'CoRD' do
   source 'http://downloads.sourceforge.net/project/cord/cord/0.5.7/CoRD_0.5.7.zip?r=http%3A%2F%2Fcord.sourceforge.net%2F&ts=1343992316&use_mirror=dfn'
   destination '/Applications/Network/'
