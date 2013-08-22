@@ -535,6 +535,7 @@ end
 #   testem            # A nice test runner for javascript
 #   http-console      # HTTP REPL :-)
 #   http-server       # A simple http server
+#   replace           # A search&replace tool (https://github.com/harthur/replace)
 
 # TODO
 # python: NB! Use brew pip to install these
