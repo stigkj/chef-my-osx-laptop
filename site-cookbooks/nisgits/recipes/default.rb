@@ -219,12 +219,6 @@ dmg_package 'Disk Order' do
   source 'http://likemac.ru/download/disk-order_ub.dmg'
 end
 
-# Does not handle having another name for the installer inside the dmg
-#dmg_package 'Fitbit' do
-#  volumes_dir 'Fitbit-FitbitTracker-v1.8.2.10-2012-04-19'
-#  source 'http://cache.fitbit.com/uploader/Install_Fitbit-1.8.2.10.dmg'
-#  type 'mpkg'
-#end
 
 dmg_package 'Cardea-IU-130.1486' do
   source 'http://download.jetbrains.com/idea/ideaIU-130.1486.dmg'
