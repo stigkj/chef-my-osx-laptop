@@ -366,6 +366,7 @@ end
 #   * resty (curl -L http://github.com/micha/resty/raw/master/resty > resty)
 #   * Gmvault (http://gmvault.org)
 #   * Yeoman (yeoman.io)
+#   * Automatic complete-word and list-choices for zsh (https://github.com/hchbaw/auto-fu.zsh)
 #   * Yoke (http://cziko.github.io/yoke)
 #   * PopClip (select text and do many things with it (http://pilotmoon.com/popclip))
 #   * Play (brew install play)
