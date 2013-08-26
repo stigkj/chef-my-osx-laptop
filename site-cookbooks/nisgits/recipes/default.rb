@@ -284,7 +284,7 @@ dmg_package 'Charles' do
 end
 
 zip_app_package 'AirMail Beta' do
-  source 'https://dl0tgz6ee3upo.cloudfront.net/production/app/builds/000/480/113/original/37ff8263b894cdf279d01b9381ec4181/AirMail_Beta.app.zip'
+  source 'https://rink.hockeyapp.net/api/2/apps/84be85c3331ee1d222fd7f0b59e41b04?format=zip'
   destination '/Applications/Network/'
 end
 
