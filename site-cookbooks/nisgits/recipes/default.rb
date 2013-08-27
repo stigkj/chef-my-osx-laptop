@@ -233,6 +233,11 @@ dmg_package 'Cardea-IU-130.1619' do
   destination '/Applications/Development/'
 end
 
+dmg_package 'RubyMine' do
+  source 'http://download-ln.jetbrains.com/ruby/RubyMine-5.4.3.dmg'
+  destination '/Applications/Development/'
+end
+
 dmg_package 'TriggerToolkit' do
   source 'https://toolkit-installer.s3.amazonaws.com/3.3.54/TriggerToolkit.dmg'
   destination '/Applications/Development/'
