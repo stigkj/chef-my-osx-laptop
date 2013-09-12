@@ -228,10 +228,22 @@ dmg_package 'PrinterDriver_MP760_105102' do
   package_id 'jp.co.canon.pkg.MP760-105102'
 end
 
-dmg_package 'Cardea-IU-130.1619' do
-  source 'http://download.jetbrains.com/idea/ideaIU-130.1619.dmg'
+intellij_name = 'Cardea'
+intellij_version = '132.197'
+dmg_package "#{intellij_name}-IU-#{intellij_version}" do
+  source "http://download.jetbrains.com/idea/ideaIU-#{intellij_version}.dmg"
   destination '/Applications/Development/'
 end
+file "/Applications/Development/#{intellij_name}-IU-#{intellij_version}.app/Contents/Info.plist" do
+  replace(/-agentlib.*-X/, "-X") if include? "-agentlib:yjpagent"
+end
+
+#ruby_block 'remove yjpagent from IntelliJ startup configuration' do
+#  block do
+#    Chef::Util::FileEdit.new("/Applications/Development/#{intellij_name}-IU-#{intellij_version}.app/Contents/Info.plist")
+#  end
+#  not_if { ::File.exists?('/Users/stiklepp/Dropbox') }
+#end
 
 dmg_package 'RubyMine' do
   source 'http://download-ln.jetbrains.com/ruby/RubyMine-5.4.3.dmg'
