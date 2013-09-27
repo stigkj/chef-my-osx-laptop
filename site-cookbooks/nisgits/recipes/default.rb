@@ -238,13 +238,6 @@ file "/Applications/Development/#{intellij_name}-IU-#{intellij_version}.app/Cont
   replace(/-agentlib.*-X/, "-X") if include? "-agentlib:yjpagent"
 end
 
-#ruby_block 'remove yjpagent from IntelliJ startup configuration' do
-#  block do
-#    Chef::Util::FileEdit.new("/Applications/Development/#{intellij_name}-IU-#{intellij_version}.app/Contents/Info.plist")
-#  end
-#  not_if { ::File.exists?('/Users/stiklepp/Dropbox') }
-#end
-
 dmg_package 'RubyMine' do
   source 'http://download-ln.jetbrains.com/ruby/RubyMine-5.4.3.dmg'
   destination '/Applications/Development/'
