@@ -3,7 +3,7 @@ package 'lesspipe'
 package 'groovy'
 package 'python'
 package 'ruby-build'
-package 'git'                   # Install a newer version than the one included in OS X
+package 'git'                   # Install a newer version than the one bundled with OS X
 package 'git-flow'
 package 'git-extras'
 package 'tig'
