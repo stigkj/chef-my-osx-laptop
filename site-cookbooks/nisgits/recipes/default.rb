@@ -382,6 +382,7 @@ end
 #   * Play (brew install play)
 #   * Scala/sbt (brew install *)
 #   * Fantastical
+#   * Haroopad (markdown editor w/live preview++) http://pad.haroopress.com/user.html)
 #   * What to use for photos: Picturelife, Adobe Revel, Flickr or Google Drive?
 #   * foundapp.com (search across the local machine and cloud services like gmail, dropbox, evernote, etc)
 #   * Send to Kindle
