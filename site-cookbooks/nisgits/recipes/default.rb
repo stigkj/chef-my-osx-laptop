@@ -229,7 +229,7 @@ dmg_package 'PrinterDriver_MP760_105102' do
 end
 
 intellij_name = 'Cardea'
-intellij_version = '132.425'
+intellij_version = '132.556'
 dmg_package "#{intellij_name}-IU-#{intellij_version}" do
   source "http://download.jetbrains.com/idea/ideaIU-#{intellij_version}.dmg"
   destination '/Applications/Development/'
