@@ -401,6 +401,7 @@ end
 #   * git-sweep (remove remote branches merged into master)
 #   * maid (cleans up files, Hazel for hackers)
 #   * httpie (command line http client)
+#   * setup environment variables in /etc/launchd.conf (look at http://apple.stackexchange.com/questions/64916/defining-environment-variables-with-launchd-launchctl/64917#64917)
 #   * brunch (a lightweight approach to building HTML5 applications, http://brunch.io)
 #   * deployd (Easy API development: http://deployd.com)
 #   * pup (DataDog's statsd server in development mode, http://www.datadoghq.com/2012/08/easy-app-metrics-with-pup)
