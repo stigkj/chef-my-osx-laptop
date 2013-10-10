@@ -390,6 +390,7 @@ end
 #   * foundapp.com (search across the local machine and cloud services like gmail, dropbox, evernote, etc)
 #   * Send to Kindle
 #   * Kindle for Mac
+#   * gcalcli Chttps://github.com/insanum/gcalcli)
 #   * CloudApp (file sharing http://getcloudapp.com also in App Store)
 #     * install cli too
 #     * gifify was also interesting (mov -> gif -> cloud, on github), is placed in ~/Dropbox/bin
