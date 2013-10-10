@@ -382,6 +382,7 @@ end
 #   * Play (brew install play)
 #   * Scala/sbt (brew install *)
 #   * Fantastical
+#   * na ('next actions', looking up actions from todo.taskpaper files, etc http://brettterpstra.com/projects/na)
 #   * Haroopad (markdown editor w/live preview++) http://pad.haroopress.com/user.html)
 #   * What to use for photos: Picturelife, Adobe Revel, Flickr or Google Drive?
 #   * foundapp.com (search across the local machine and cloud services like gmail, dropbox, evernote, etc)
