@@ -45,6 +45,9 @@ package 'pstree'                # Show running processes in a hierarchy
 package 'exiftool'              # Reads and writes media metadata (http://www.sno.phy.queensu.ca/~phil/exiftool)
 
 ## TODO
+# All git checkouts should get a specific user and email setup with git config
+
+## TODO
 
 #WARNING: The locate database (/var/db/locate.database) does not exist.
 #To create the database, run the following command:
