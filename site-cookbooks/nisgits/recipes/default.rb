@@ -303,6 +303,11 @@ zip_app_package 'AirMail Beta' do
   destination '/Applications/Network/'
 end
 
+zip_app_package 'Fluid' do
+  source 'http://fluidapp.com/dist/Fluid_1.7.2.zip'
+  destination '/Applications/Network/'
+end
+
 zip_app_package 'HipChat' do
   source 'http://downloads.hipchat.com.s3.amazonaws.com/mac-beta/HipChat-0.33-01uennzomg01wmg.zip'
   destination '/Applications/Network/'
