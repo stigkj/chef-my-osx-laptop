@@ -172,6 +172,11 @@ bash 'extract slate to /Applications' do
   not_if { ::File.exists?('/Applications/Slate.app') }
 end
 
+dmg_package 'handyLock' do
+  volumes_dir 'handyLock v1.0.5.01'
+  source 'https://s3.amazonaws.com/netputing/handyLock/handyLock+v1.0.5.dmg'
+end
+
 dmg_package 'A Better Finder Rename 9' do
   source 'http://www.publicspace.net/download/ABFRX9.dmg'
   accept_eula true
