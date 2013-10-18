@@ -503,11 +503,13 @@ end
 # Directory used for caching ssh sessions
 directory "#{ENV['HOME']}/.ssh/sockets"
 
-Dir.glob("#{ENV['HOME']}/.ssh/*") do |ssh_file|
-  fileMode = File.file?(ssh_file) ? '600' : '700'
-  file ssh_file do
-    mode fileMode
-  end
+Dir.glob("#{ENV['HOME']}/.ssh/*") do |path|
+  file path do
+    mode '600'
+  end if File.file?(path)
+  directory path do
+    mode '700'
+  end if File.directory?(path)
 end
 
 link "#{ENV['HOME']}/.gitconfig" do
