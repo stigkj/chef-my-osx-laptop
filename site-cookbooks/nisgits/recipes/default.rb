@@ -246,13 +246,15 @@ dmg_package 'PrinterDriver_MP760_105102' do
   package_id 'jp.co.canon.pkg.MP760-105102'
 end
 
-intellij_name = 'Cardea'
-intellij_version = '132.637'
-dmg_package "#{intellij_name}-IU-#{intellij_version}" do
-  source "http://download.jetbrains.com/idea/ideaIU-#{intellij_version}.dmg"
+intellij_name = 'IntelliJ IDEA'
+intellij_version = ' 13 EAP'
+intellij_url_name = 'ideaIU'
+intellij_url_version = '-132.947'
+dmg_package "#{intellij_name}#{intellij_version}" do
+  source "http://download.jetbrains.com/idea/#{intellij_url_name}#{intellij_url_version}.dmg"
   destination '/Applications/Development/'
 end
-file "/Applications/Development/#{intellij_name}-IU-#{intellij_version}.app/Contents/Info.plist" do
+file "/Applications/Development/#{intellij_name}#{intellij_version}.app/Contents/Info.plist" do
   replace(/-agentlib.*-X/, "-X") if include? "-agentlib:yjpagent"
 end
 
