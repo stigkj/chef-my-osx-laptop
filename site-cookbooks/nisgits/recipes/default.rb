@@ -230,6 +230,10 @@ dmg_package 'Disk Order' do
   source 'http://likemac.ru/download/disk-order_ub.dmg'
 end
 
+dmg_package 'FreeMind' do
+  source 'http://prdownloads.sourceforge.net/freemind/FreeMind_1.0.0.dmg?download'
+end
+
 # Canon MP760 printer driver
 dmg_package 'PrinterDriver_MP760_105102' do
   volumes_dir 'PrinterDriver_MP760'
