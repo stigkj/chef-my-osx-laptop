@@ -379,6 +379,12 @@ dmg_package 'Picturelife' do
   destination '/Applications/Media/'
 end
 
+zip_app_package 'Picturesque' do
+  source 'https://paddle-static.s3.amazonaws.com/downloads/software/picturesque.zip'
+  destination '/Applications/Media/'
+end
+# TODO load license from ~/Dropbox/licenses.txt
+
 zip_app_package 'Beamer' do
   source 'https://www.macupdate.com/download/40987/Beamer.zip'
   destination '/Applications/Media/'
