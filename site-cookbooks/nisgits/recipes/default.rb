@@ -136,7 +136,9 @@ file "#{ENV['HOME']}/.sbt/plugins/build.sbt" do
 end
 
 %w{Development Network Media}.each do |dir|
-  directory "/Applications/#{dir}"
+  directory "/Applications/#{dir}" do
+    not_if { ::File.exists?("/Applications/#{dir}") }
+  end
 end
 
 dmg_package 'Google Chrome' do
