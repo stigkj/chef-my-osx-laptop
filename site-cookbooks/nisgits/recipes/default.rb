@@ -271,6 +271,11 @@ zip_app_package 'GitX' do
   destination '/Applications/Development/'
 end
 
+zip_app_package 'GitHub' do
+  source 'https://central.github.com/mac/latest'
+  destination '/Applications/Development/'
+end
+
 dmg_package 'VirtualBox' do
   source 'http://download.virtualbox.org/virtualbox/4.2.16/VirtualBox-4.2.16-86992-OSX.dmg'
   type 'pkg'
