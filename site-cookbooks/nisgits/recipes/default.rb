@@ -379,6 +379,12 @@ dmg_package 'Picturelife' do
   destination '/Applications/Media/'
 end
 
+zip_app_package 'Beamer' do
+  source 'https://www.macupdate.com/download/40987/Beamer.zip'
+  destination '/Applications/Media/'
+end
+# TODO load license from ~/Dropbox/licenses.txt
+
 # TODO install:
 #   * MPlayer OSX extended (zipapp)
 #   * Beyond Compare via WineBottler
