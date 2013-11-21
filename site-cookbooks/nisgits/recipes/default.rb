@@ -108,6 +108,9 @@ end
 link "#{ENV['HOME']}/.zsh_history" do
   to "#{ENV['HOME']}/Dropbox/.zsh_history"
 end
+link "#{ENV['HOME']}/.gnupg" do
+  to "#{ENV['HOME']}/Dropbox/.gnupg"
+end
 
 # Setup gradle configuration
 directory "#{ENV['HOME']}/.gradle"
