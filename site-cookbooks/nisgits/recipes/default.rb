@@ -313,15 +313,16 @@ dmg_package 'Vagrant' do
   package_id 'com.vagrant.vagrant'
 end
 
-remote_file "#{Chef::Config[:file_cache_path]}/Mailplane_3_676.tbz" do
-  source 'http://dist.mailplaneapp.com/builds/Mailplane_3_676.tbz'
+mp_version = '3_878'
+remote_file "#{Chef::Config[:file_cache_path]}/Mailplane_#{mp_version}.tbz" do
+  source "http://dist.mailplaneapp.com/builds/Mailplane_#{mp_version}.tbz"
   action :create_if_missing
   not_if { ::File.exists?('/Applications/Network/Mailplane 3.app') }
 end
 bash 'extract Mailplane to /Applications/Network' do
   code <<-EOH
     echo 'extract Mailplane to /Applications/Network'
-    tar -C /Applications/Network/ -x -f #{Chef::Config[:file_cache_path]}/Mailplane_3_676.tbz
+    tar -C /Applications/Network/ -x -f #{Chef::Config[:file_cache_path]}/Mailplane_#{mp_version}.tbz
     EOH
   not_if { ::File.exists?('/Applications/Network/Mailplane 3.app') }
 end
