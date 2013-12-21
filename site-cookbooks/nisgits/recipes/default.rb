@@ -447,6 +447,7 @@ end
 #       <key>WineProgramArguments</key>
 #       <string></string>
 #   * http://lokiware.info/Attachment-Tamer
+#   * Turn off local backup
 #   * Look at all bought software and in old backups of installed software
 #   * resty (curl -L http://github.com/micha/resty/raw/master/resty > resty)
 #   * Gmvault (http://gmvault.org)
