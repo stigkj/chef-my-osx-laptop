@@ -590,6 +590,9 @@ end
 link "#{ENV['HOME']}/.gitignore" do
   to "#{ENV['HOME']}/Dropbox/.gitignore"
 end
+link "#{ENV['HOME']}/.gitattributes" do
+  to "#{ENV['HOME']}/Dropbox/.gitattributes"
+end
 
 %w{buster buster-lint}.each do |pkg|
   bash "install npm package #{pkg}" do
