@@ -100,9 +100,10 @@ end
 link "#{ENV['HOME']}/.zshrc" do
   to "#{ENV['HOME']}/Dropbox/.zshrc"
 end
-link "#{ENV['HOME']}/.zsh_history" do
-  to "#{ENV['HOME']}/Dropbox/.zsh_history"
-end
+# TODO better to set HISTORY env variable in .zshrc instead?
+#link "#{ENV['HOME']}/.zsh_history" do
+#  to "#{ENV['HOME']}/Dropbox/.zsh_history"
+#end
 link "#{ENV['HOME']}/.gnupg" do
   to "#{ENV['HOME']}/Dropbox/.gnupg"
 end
