@@ -302,7 +302,7 @@ zip_app_package 'GitHub' do
 end
 
 dmg_package 'VirtualBox' do
-  source 'http://download.virtualbox.org/virtualbox/4.2.16/VirtualBox-4.2.16-86992-OSX.dmg'
+  source 'http://download.virtualbox.org/virtualbox/4.3.2/VirtualBox-4.3.2-90405-OSX.dmg'
   type 'pkg'
 end
 
