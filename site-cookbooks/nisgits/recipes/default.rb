@@ -220,6 +220,7 @@ end
 #  - floobits (Cross-editor real-time collaboration)
 #  - SublimeXiki (Xiki in the editor, https://github.com/lunixbochs/SublimeXiki)
 #  - Tern (JavaScript code completion server, https://github.com/marijnh/tern_for_sublime)
+#  - CheckBounce (OS X spell checking https://github.com/phyllisstein/CheckBounce)
 
 dmg_package 'Texts' do
   source 'http://www.texts.io/Texts-0.13.dmg'
