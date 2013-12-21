@@ -86,9 +86,6 @@ end
 # t,                    # great command line twitter client
 # omglog                # very nice realtime git log graph
 
-# TODO install java 1.7 with chef
-#include_recipe 'java::oracle'
-
 bash 'setup Homebrew zsh as default shell' do
   code <<-EOH
     echo 'setup Homebrew zsh as default shell'
@@ -134,6 +131,20 @@ file "#{ENV['HOME']}/.sbt/plugins/build.sbt" do
     addSbtPlugin("com.github.mpeltonen" % "sbt-idea" % "1.4.0")
     EOH
   action :create_if_missing
+end
+
+jdk_filename = 'jdk-7u45-macosx-x64.dmg'
+bash 'download JDK to chef file cache' do
+  code <<-EOH
+    echo #{Chef::Config[:file_cache_path]}/#{jdk_filename}
+    wget -O #{Chef::Config[:file_cache_path]}/#{jdk_filename} --no-cookies --header "Cookie: gpw_e24=http%3A%2F%2Fwww.oracle.com" "http://download.oracle.com/otn-pub/java/jdk/7u45-b18/#{jdk_filename}"
+    EOH
+  not_if { ::File.exists?("#{Chef::Config[:file_cache_path]}/#{jdk_filename}") || ::File.exists?("Library/Java/JavaVirtualMachines/jdk1.7.0_45.jdk") }
+end
+dmg_package 'JDK 7 Update 45' do
+  dmg_name 'jdk-7u45-macosx-x64'
+  type 'pkg'
+  package_id 'com.oracle.jdk7u45'
 end
 
 %w{Development Network Media}.each do |dir|
