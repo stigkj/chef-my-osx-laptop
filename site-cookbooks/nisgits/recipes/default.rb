@@ -526,6 +526,7 @@ end
 #   * spring boot cli (fast creation of Spring apps http://projects.spring.io/spring-boot/docs/README.html)
 #   * PostgreSQL (http://postgresapp.com)
 #   * sack (better ack/ag/grep https://github.com/sampson-chen/sack)
+#   * Google Apps Manager (https://code.google.com/p/google-apps-manager/)
 #   * Inpaint (Easily remove unwanted elements from pictures, have license for v3.0 http://www.theinpaint.com/)
 #   * Shortcat ("click" buttons with the keyboard http://shortcatapp.com)
 #   * Sidestep (on unknown wireless networks route web traffic through proxy http://chetansurpur.com/projects/sidestep/)
