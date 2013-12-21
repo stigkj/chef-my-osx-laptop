@@ -260,9 +260,9 @@ dmg_package 'PrinterDriver_MP760_105102' do
 end
 
 intellij_name = 'IntelliJ IDEA'
-intellij_version = ' 13 EAP'
+intellij_version = ' 13'
 intellij_url_name = 'ideaIU'
-intellij_url_version = '-133.79'
+intellij_url_version = '-13'
 dmg_package "#{intellij_name}#{intellij_version}" do
   source "http://download.jetbrains.com/idea/#{intellij_url_name}#{intellij_url_version}.dmg"
   destination '/Applications/Development/'
