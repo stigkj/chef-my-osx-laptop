@@ -421,6 +421,12 @@ dmg_package 'Picturelife' do
   destination '/Applications/Media/'
 end
 
+dmg_package 'Minitube' do
+  source 'http://flavio.tordini.org/files/minitube/minitube.dmg'
+  destination '/Applications/Media/'
+end
+# TODO load license from ~/Dropbox/licenses.txt
+
 zip_app_package 'Picturesque' do
   source 'https://paddle-static.s3.amazonaws.com/downloads/software/picturesque.zip'
   destination '/Applications/Media/'
