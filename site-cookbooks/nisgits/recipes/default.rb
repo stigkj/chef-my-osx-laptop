@@ -523,6 +523,7 @@ end
 #   * codetag (attach tags to development files automatically https://github.com/mk-fg/codetag)
 #   * mysql using "bash <(curl -Ls http://git.io/eUx7rg)"
 #   * Sequel Pro (nice mysql gui http://www.sequelpro.com)
+#   * spring boot cli (fast creation of Spring apps http://projects.spring.io/spring-boot/docs/README.html)
 #   * PostgreSQL (http://postgresapp.com)
 #   * Inpaint (Easily remove unwanted elements from pictures, have license for v3.0 http://www.theinpaint.com/)
 #   * Shortcat ("click" buttons with the keyboard http://shortcatapp.com)
