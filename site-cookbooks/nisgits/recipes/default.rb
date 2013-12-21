@@ -594,6 +594,11 @@ link "#{ENV['HOME']}/.gitattributes" do
   to "#{ENV['HOME']}/Dropbox/.gitattributes"
 end
 
+remote_file "#{ENV['HOME']}/Dropbox/bin/git-diffall" do
+  source 'https://raw.github.com/thenigan/git-diffall/master/git-diffall'
+  action :create_if_missing
+end
+
 %w{buster buster-lint}.each do |pkg|
   bash "install npm package #{pkg}" do
     code <<-EOH
