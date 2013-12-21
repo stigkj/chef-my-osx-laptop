@@ -364,6 +364,12 @@ dmg_package 'NZBVortex' do
   destination '/Applications/Network/'
 end
 
+# TODO this is a zipped pkg
+#dmg_package 'uTorrent' do
+#  source 'http://download-new.utorrent.com/endpoint/utmac/os/osx/track/stable/'
+#  destination '/Applications/Network/'
+#end
+
 dmg_package 'JollysFastVNC' do
   volumes_dir 'JollysFastVNC.1.44.(1234001).10.7'
   source 'http://www.jinx.de/JollysFastVNC_files/JollysFastVNC.current.dmg'
