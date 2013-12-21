@@ -599,6 +599,13 @@ remote_file "#{ENV['HOME']}/Dropbox/bin/git-diffall" do
   action :create_if_missing
 end
 
+Dir.glob("#{ENV['HOME']}/Dropbox/bin/*") do |path|
+  file path do
+    mode '755'
+    manage_symlink_source true
+  end if File.file?(path)
+end
+
 %w{buster buster-lint}.each do |pkg|
   bash "install npm package #{pkg}" do
     code <<-EOH
