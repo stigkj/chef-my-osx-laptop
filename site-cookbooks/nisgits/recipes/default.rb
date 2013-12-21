@@ -69,8 +69,6 @@ link "#{ENV['HOME']}/.gemrc" do
   to "#{ENV['HOME']}/Dropbox/.gemrc"
 end
 
-# TODO do not install docs via gem, make a ~/.gemrc or something
-
 # TODO install these CLI gems through brew gem:
 # git-up,
 # git-pulls,            # Command line accesss to GitHub pull requests (https://github.com/schacon/git-pulls)
