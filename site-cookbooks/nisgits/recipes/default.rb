@@ -359,6 +359,11 @@ dmg_package 'Slink' do
   destination '/Applications/Network/'
 end
 
+dmg_package 'NZBVortex' do
+  source 'http://www.nzbvortex.com/downloads/NZBVortex.dmg'
+  destination '/Applications/Network/'
+end
+
 dmg_package 'JollysFastVNC' do
   volumes_dir 'JollysFastVNC.1.44.(1234001).10.7'
   source 'http://www.jinx.de/JollysFastVNC_files/JollysFastVNC.current.dmg'
