@@ -559,6 +559,7 @@ end
 #   * ngrok (expose local http/tcp services to internet https://ngrok.com)
 #   * Look at using Middleman for blog (http://middlemanapp.com)
 #   * Use devproxy/pow (https://github.com/myfreeweb/devproxy http://pow.cx)
+#   * gost (gist client written in go https://github.com/MaximeD/gost)
 #   * Mouse and keyboard sharing:
 #     * http://www.keyboard-and-mouse-sharing.com
 #     * http://avatron.com/apps/air-display
