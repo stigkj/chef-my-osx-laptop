@@ -277,6 +277,10 @@ file "/Applications/Development/#{intellij_name}#{intellij_version}.app/Contents
   replace(/-agentlib.*-X/, "-X") if include? "-agentlib:yjpagent"
 end
 
+## TODO IntelliJ plugins
+# Gradle Dependencies Helper (http://plugins.jetbrains.com/plugin/7299?pr=idea)
+# PegDown doclet renderer (http://plugins.jetbrains.com/plugin/7253)
+
 dmg_package 'RubyMine' do
   source 'http://download-ln.jetbrains.com/ruby/RubyMine-5.4.3.dmg'
   destination '/Applications/Development/'
