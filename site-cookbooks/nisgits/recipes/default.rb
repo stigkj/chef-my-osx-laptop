@@ -658,6 +658,7 @@ end
 # gems:
 #   exchanger
 #   jazor
+#   lunchy (nice wrapper for launchctl)
 #   github_cli (Complete API v3 coverage from command line: https://github.com/peter-murach/github_cli)
 
 # TODO
