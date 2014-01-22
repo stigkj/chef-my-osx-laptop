@@ -305,6 +305,7 @@ end
 # TODO install themes for editors, tomorrow-theme or solarized
 # https://raw.github.com/tomislav/osx-lion-terminal.app-colors-solarized/master/Solarized%20Dark.terminal
 # https://github.com/belluzj/cosmic-sans-neue
+# http://kkga.github.io/spacegray
 
 zip_app_package 'GitX' do
   source 'https://github.com/downloads/rowanj/gitx/GitX-dev-57.zip'
