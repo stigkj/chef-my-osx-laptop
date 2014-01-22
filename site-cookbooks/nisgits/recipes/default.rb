@@ -286,6 +286,12 @@ dmg_package 'RubyMine' do
   destination '/Applications/Development/'
 end
 
+dmg_package 'JD-GUI' do
+  volumes_dir 'JD-GUI 0.3.5'
+  source 'http://jd.benow.ca/jd-gui/downloads/jd-gui-0.3.5.osx.i686.dmg'
+  destination '/Applications/Development/'
+end
+
 dmg_package 'TriggerToolkit' do
   source 'https://toolkit-installer.s3.amazonaws.com/3.3.54/TriggerToolkit.dmg'
   destination '/Applications/Development/'
