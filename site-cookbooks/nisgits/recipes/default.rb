@@ -540,6 +540,7 @@ end
 #   * bunyip (Automate client-side unit testing in real browsers http://ryanseddon.github.com/bunyip)
 #   * pagekite (tunneling service for local server https://pagekite.net)
 #   * git-playback (visual playback of git commits https://github.com/mmozuras/git-playback)
+#   * git-integration (manage integration of master and feature branches http://johnkeeping.github.io/git-integration)
 #   * BoxCryptor/encfs (for encrypting of single files https://www.boxcryptor.com)
 #   * ControlPlane (change machine setup for each context (home, work, etc) http://www.controlplaneapp.com)
 #     or others: http://airportlocation.wordpress.com, http://oomphalot.com/sidekick
