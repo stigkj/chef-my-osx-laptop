@@ -43,6 +43,7 @@ package 'phantomjs'             # A headless WebKit scriptable with JavaScript, 
 package 'sbt'                   # The Scala build tool
 package 'pstree'                # Show running processes in a hierarchy
 package 'exiftool'              # Reads and writes media metadata (http://www.sno.phy.queensu.ca/~phil/exiftool)
+package 'direnv'                # A shell extension that loads different environment variables depending on your path
 
 ## TODO
 # All git checkouts should get a specific user and email setup with git config
