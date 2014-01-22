@@ -495,6 +495,7 @@ end
 #     * gifify was also interesting (mov -> gif -> cloud, on github), is placed in ~/Dropbox/bin
 #   * Mou (Nice Markdown editor http://mouapp.com)
 #   * Synergy (synergy-foss.org)
+#   * HouseMD (jvm diagnosing tool ala BTrace, install through jenvjjkkjkkj https://github.com/CSUG/HouseMD)
 #   * Java (1.6 & 1.7) with source
 #     * Download from Developer Connection with adc_download.sh
 #   * Shortcat (http://updates.shortcatapp.com/v0.3.6/Shortcat.app.zip)
