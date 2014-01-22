@@ -557,6 +557,7 @@ end
 #   * Sidestep (on unknown wireless networks route web traffic through proxy http://chetansurpur.com/projects/sidestep/)
 #   * Cloud Mate (control the files in iCloud http://www.rwe-uk.com/app/cloud-mate)
 #   * ngrok (expose local http/tcp services to internet https://ngrok.com)
+#   * Look at using Middleman for blog (http://middlemanapp.com)
 #   * Mouse and keyboard sharing:
 #     * http://www.keyboard-and-mouse-sharing.com
 #     * http://avatron.com/apps/air-display
