@@ -488,6 +488,7 @@ end
 #   * Send to Kindle
 #   * Forklift 2
 #   * Kindle for Mac
+#   * Repo manager for git (https://github.com/robertwahler/repo_manager)
 #   * gcalcli Chttps://github.com/insanum/gcalcli)
 #   * CloudApp (file sharing http://getcloudapp.com also in App Store)
 #     * install cli too
