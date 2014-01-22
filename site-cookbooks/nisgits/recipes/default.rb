@@ -558,6 +558,7 @@ end
 #   * Cloud Mate (control the files in iCloud http://www.rwe-uk.com/app/cloud-mate)
 #   * ngrok (expose local http/tcp services to internet https://ngrok.com)
 #   * Look at using Middleman for blog (http://middlemanapp.com)
+#   * Use devproxy/pow (https://github.com/myfreeweb/devproxy http://pow.cx)
 #   * Mouse and keyboard sharing:
 #     * http://www.keyboard-and-mouse-sharing.com
 #     * http://avatron.com/apps/air-display
