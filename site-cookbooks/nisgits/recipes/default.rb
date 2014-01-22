@@ -46,6 +46,8 @@ package 'exiftool'              # Reads and writes media metadata (http://www.sn
 package 'direnv'                # A shell extension that loads different environment variables depending on your path
 package 'atdtool'               # Tool for checking spelling, grammar and style in texts
 
+## TODO convert to use Kitchenplan (http://kitchenplan.github.io/kitchenplan)
+
 ## TODO
 # All git checkouts should get a specific user and email setup with git config
 
