@@ -1,3 +1,8 @@
+# Tap for installing binary packages
+homebrew_tap('homebrew/binary')
+# Tap for dvm
+homebrew_tap('fnichol/dvm')
+
 package 'zsh'
 package 'lesspipe'
 package 'groovy'
@@ -45,6 +50,8 @@ package 'pstree'                # Show running processes in a hierarchy
 package 'exiftool'              # Reads and writes media metadata (http://www.sno.phy.queensu.ca/~phil/exiftool)
 package 'direnv'                # A shell extension that loads different environment variables depending on your path
 package 'atdtool'               # Tool for checking spelling, grammar and style in texts
+package 'docker'                # Easily create lightweight containers
+package 'dvm'                   # Easily use docker on OS X or other OS's not being able to run docker natively
 
 ## TODO convert to use Kitchenplan (http://kitchenplan.github.io/kitchenplan)
 
