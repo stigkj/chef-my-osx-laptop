@@ -52,8 +52,11 @@ package 'direnv'                # A shell extension that loads different environ
 package 'atdtool'               # Tool for checking spelling, grammar and style in texts
 package 'docker'                # Easily create lightweight containers
 package 'dvm'                   # Easily use docker on OS X or other OS's not being able to run docker natively
+package 'mackup'                # Keeps your application settings in sync via Dropbox and linking (https://github.com/lra/mackup  )
 
 ## TODO convert to use Kitchenplan (http://kitchenplan.github.io/kitchenplan)
+
+## TODO use mackup for sync of application configuration
 
 ## TODO
 # All git checkouts should get a specific user and email setup with git config
