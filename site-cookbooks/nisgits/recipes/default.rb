@@ -135,7 +135,7 @@ link "#{ENV['HOME']}/.gradle/gradle.properties" do
   to "#{ENV['HOME']}/Dropbox/Gradle/gradle.properties"
 end
 
-## TODO use prezto instead:
+## TODO use prezto instead: (http://blog.jr0cket.co.uk/2013/09/hey-prezto-zsh-for-command-line-heaven.html?m=1)
 git "#{ENV['HOME']}/.oh-my-zsh" do
   repository 'https://github.com/robbyrussell/oh-my-zsh.git'
   reference 'master'
