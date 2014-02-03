@@ -2,6 +2,9 @@
 homebrew_tap('homebrew/binary')
 # Tap for dvm
 homebrew_tap('fnichol/dvm')
+# Needs both taps for sitespeed.io
+homebrew_tap('tobli/browsertime')
+homebrew_tap('sitespeedio/sitespeedio')
 
 package 'zsh'
 package 'lesspipe'
@@ -52,7 +55,8 @@ package 'direnv'                # A shell extension that loads different environ
 package 'atdtool'               # Tool for checking spelling, grammar and style in texts
 package 'docker'                # Easily create lightweight containers
 package 'dvm'                   # Easily use docker on OS X or other OS's not being able to run docker natively
-package 'mackup'                # Keeps your application settings in sync via Dropbox and linking (https://github.com/lra/mackup  )
+package 'mackup'                # Keeps your application settings in sync via Dropbox and linking (https://github.com/lra/mackup)
+package 'sitespeed.io'          # Analyze web sites for problems that makes them load slow in the browser (http://www.sitespeed.io)
 
 ## TODO convert to use Kitchenplan (http://kitchenplan.github.io/kitchenplan)
 
