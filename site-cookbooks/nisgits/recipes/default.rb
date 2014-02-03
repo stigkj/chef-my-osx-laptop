@@ -564,6 +564,7 @@ end
 #   * spring boot cli (fast creation of Spring apps http://projects.spring.io/spring-boot/docs/README.html)
 #   * PostgreSQL (http://postgresapp.com)
 #   * sack (better ack/ag/grep https://github.com/sampson-chen/sack)
+#   * nice setup of the shell (https://github.com/barryclark/bashstrap)
 #   * Google Apps Manager (https://code.google.com/p/google-apps-manager/)
 #   * atMonitor (http://www.atpurpose.com/atMonitor)
 #   * Inpaint (Easily remove unwanted elements from pictures, have license for v3.0 http://www.theinpaint.com/)
