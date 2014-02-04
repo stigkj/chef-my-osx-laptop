@@ -526,6 +526,7 @@ end
 #   * HoRNDIS: USB tethering driver for Mac OS X (http://joshuawise.com/horndis)
 #   * Choosy (choose which browser to open a link in at "runtime")
 #   * Postgres.app (http://postgresapp.com)
+#   * boom (http load generator, ala ApacheBench https://github.com/rakyll/boom)
 #   * Look at direnv (https://github.com/zimbatm/direnv)
 #   * xiproxy (Transparent HTTP proxy for using the xip.io domain https://github.com/rashidkpc/xiproxy)
 #   * vimpager (a better pager, replacement for less.sh https://github.com/rkitover/vimpager)
