@@ -282,7 +282,7 @@ end
 intellij_name = 'IntelliJ IDEA'
 intellij_version = ' 13 EAP'
 intellij_url_name = 'ideaIU'
-intellij_url_version = '-134.1007'
+intellij_url_version = '-134.1445'
 dmg_package "#{intellij_name}#{intellij_version}" do
   source "http://download.jetbrains.com/idea/#{intellij_url_name}#{intellij_url_version}.dmg"
   destination '/Applications/Development/'
