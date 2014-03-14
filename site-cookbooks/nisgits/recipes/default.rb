@@ -560,6 +560,8 @@ end
 #   * codetag (attach tags to development files automatically https://github.com/mk-fg/codetag)
 #   * mysql using "bash <(curl -Ls http://git.io/eUx7rg)"
 #   * Sequel Pro (nice mysql gui http://www.sequelpro.com)
+#   * Paw (great HTTP client for debugging HTTP request, on Paddle: https://www.paddle.com/locker/500361)
+#      * License on ~/Dropbox/license.txt
 #   * spring boot cli (fast creation of Spring apps http://projects.spring.io/spring-boot/docs/README.html)
 #   * PostgreSQL (http://postgresapp.com)
 #   * sack (better ack/ag/grep https://github.com/sampson-chen/sack)
