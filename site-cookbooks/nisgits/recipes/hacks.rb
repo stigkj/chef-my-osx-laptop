@@ -103,7 +103,7 @@ bash 'enable access for assistive devices' do
   not_if { ::File.exists?('/private/var/db/.AccessibilityAPIEnabled') }
 end
 
-
+# Look at http://nerdlogger.com/2012/07/30/get-control-of-mountain-lion-with-a-huge-list-of-command-line-tweaks/
 # Look at this: https://github.com/mathiasbynens/dotfiles/blob/master/.osx
 
 # Look at http://chris-gerke.blogspot.no/2012/03/mac-osx-soe-master-image-day-6.html
