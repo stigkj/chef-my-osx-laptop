@@ -6,57 +6,57 @@ homebrew_tap('fnichol/dvm')
 homebrew_tap('tobli/browsertime')
 homebrew_tap('sitespeedio/sitespeedio')
 
-package 'zsh'
-package 'lesspipe'
-package 'groovy'
-package 'python'
-package 'ruby-build'
-package 'git'                   # Installs a newer version than the one bundled with OS X
-package 'git-flow'
-package 'git-extras'
-package 'tig'
-package 'tree'
-# TODO fix installation
-package 'httpry'
-package 'sslscan'
-package 'ssldump'
-package 'wget'
 package 'ack'
-package 'gecode'
-package 'p7zip'
-package 'mmv'
-package 'maven'                 # Maven, the build tool (TODO: install through jenv?)
-package 'mr'                    # Multiple Repository management tool
-package 'jnettop'               # Network traffic visualiser
-package 'jq'                    # Lightweight and flexible command-line JSON processor
-package 'the_silver_searcher'   # Ag, a very fast code-searching tool, faster than ack
-package 'socat'                 # A multipurpose network tool
-package 'gist'                  # Pastes text into a new gist on gist.github.com
-package 'hub'                   # Wrapper for git that makes it easier to work with github.com from command line
-package 'rest-shell'            # Command-line shell for interacting with Spring HATEOAS-compliant REST resources
-package 'task-spooler'          # Easily queue jobs from the terminal
-package 'trash'                 # Moves files/folders to the OS X trash (TODO alias to rm?)
-package 'osxutils'              # Utilities for OS X specific settings, meta-data and information
-package 'proctools'             # Scans for and sends signals to processes
-package 'encfs'                 # Encrypted files through FUSE
-package 'vcprompt'              # Prints a string describing the current directory's version control state
 # Wrong SHA1 in Homebrew package
 package 'agedu'                 # Reports on disk space used, together with the age of these files
-package 'fasd'                  # Quickly reference files/folders used on command line (TODO installation in shell)
+package 'atdtool'               # Tool for checking spelling, grammar and style in texts
 package 'brew-pip'              # Install python packages through brew pip .... NB! Must link pip into /usr/bin for this to work
+package 'direnv'                # A shell extension that loads different environment variables depending on your path
+package 'docker'                # Easily create lightweight containers
 package 'drip'                  # A faster JVM launcher
+package 'dvm'                   # Easily use docker on OS X or other OS's not being able to run docker natively
+package 'encfs'                 # Encrypted files through FUSE
+package 'exiftool'              # Reads and writes media metadata (http://www.sno.phy.queensu.ca/~phil/exiftool)
+package 'fasd'                  # Quickly reference files/folders used on command line (TODO installation in shell)
+package 'gecode'
+package 'gist'                  # Pastes text into a new gist on gist.github.com
+package 'git'                   # Installs a newer version than the one bundled with OS X
+package 'git-extras'
+package 'git-flow'
+package 'groovy'
+# TODO fix installation
+package 'httpry'
+package 'hub'                   # Wrapper for git that makes it easier to work with github.com from command line
+package 'jnettop'               # Network traffic visualiser
+package 'jq'                    # Lightweight and flexible command-line JSON processor
+package 'lesspipe'
+package 'mackup'                # Keeps your application settings in sync via Dropbox and linking (https://github.com/lra/mackup)
+package 'maven'                 # Maven, the build tool (TODO: install through jenv?)
+package 'mmv'
+package 'mr'                    # Multiple Repository management tool
 # TODO nvm or n - node version managers, ala rvm (https://github.com/creationix/nvm, https://github.com/visionmedia/n)
 package 'npm'                   # The node.js package manager, will also install node.js
+package 'osxutils'              # Utilities for OS X specific settings, meta-data and information
+package 'p7zip'
 package 'phantomjs'             # A headless WebKit scriptable with JavaScript, very good for headless website testing
-package 'sbt'                   # The Scala build tool
+package 'proctools'             # Scans for and sends signals to processes
 package 'pstree'                # Show running processes in a hierarchy
-package 'exiftool'              # Reads and writes media metadata (http://www.sno.phy.queensu.ca/~phil/exiftool)
-package 'direnv'                # A shell extension that loads different environment variables depending on your path
-package 'atdtool'               # Tool for checking spelling, grammar and style in texts
-package 'docker'                # Easily create lightweight containers
-package 'dvm'                   # Easily use docker on OS X or other OS's not being able to run docker natively
-package 'mackup'                # Keeps your application settings in sync via Dropbox and linking (https://github.com/lra/mackup)
+package 'python'
+package 'rest-shell'            # Command-line shell for interacting with Spring HATEOAS-compliant REST resources
+package 'ruby-build'
+package 'sbt'                   # The Scala build tool
 package 'sitespeed.io'          # Analyze web sites for problems that makes them load slow in the browser (http://www.sitespeed.io)
+package 'socat'                 # A multipurpose network tool
+package 'ssldump'
+package 'sslscan'
+package 'task-spooler'          # Easily queue jobs from the terminal
+package 'the_silver_searcher'   # Ag, a very fast code-searching tool, faster than ack
+package 'tig'
+package 'trash'                 # Moves files/folders to the OS X trash (TODO alias to rm?)
+package 'tree'
+package 'vcprompt'              # Prints a string describing the current directory's version control state
+package 'wget'
+package 'zsh'
 
 ## TODO convert to use Kitchenplan (http://kitchenplan.github.io/kitchenplan)
 
