@@ -564,6 +564,7 @@ end
 #      * License on ~/Dropbox/license.txt
 #   * spring boot cli (fast creation of Spring apps http://projects.spring.io/spring-boot/docs/README.html)
 #   * PostgreSQL (http://postgresapp.com)
+#   * Pinegrow (looks like a good web editor http://pinegrow.com)
 #   * sack (better ack/ag/grep https://github.com/sampson-chen/sack)
 #   * nice setup of the shell (https://github.com/barryclark/bashstrap)
 #   * Google Apps Manager (https://code.google.com/p/google-apps-manager/)
