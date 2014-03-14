@@ -41,6 +41,7 @@ package 'p7zip'
 package 'phantomjs'             # A headless WebKit scriptable with JavaScript, very good for headless website testing
 package 'proctools'             # Scans for and sends signals to processes
 package 'pstree'                # Show running processes in a hierarchy
+package 'pv'                    # Terminal-based tool for monitoring the progress of data through a pipeline
 package 'python'
 package 'rest-shell'            # Command-line shell for interacting with Spring HATEOAS-compliant REST resources
 package 'ruby-build'
