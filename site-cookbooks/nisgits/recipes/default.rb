@@ -14,6 +14,7 @@ package 'ack'
 # Wrong SHA1 in Homebrew package
 package 'agedu'                 # Reports on disk space used, together with the age of these files
 package 'atdtool'               # Tool for checking spelling, grammar and style in texts
+package 'brew-cask'             # Install GUI Mac applications
 package 'brew-pip'              # Install python packages through brew pip .... NB! Must link pip into /usr/bin for this to work
 package 'direnv'                # A shell extension that loads different environment variables depending on your path
 package 'docker'                # Easily create lightweight containers
