@@ -3,12 +3,12 @@ homebrew_tap 'phinze/cask'
 # Tap with alternative versions of Casks
 homebrew_tap 'caskroom/versions'
 # Tap for installing binary packages
-homebrew_tap('homebrew/binary')
+homebrew_tap 'homebrew/binary'
 # Tap for dvm
-homebrew_tap('fnichol/dvm')
+homebrew_tap 'fnichol/dvm'
 # Needs both taps for sitespeed.io
-homebrew_tap('tobli/browsertime')
-homebrew_tap('sitespeedio/sitespeedio')
+homebrew_tap 'tobli/browsertime'
+homebrew_tap 'sitespeedio/sitespeedio'
 
 package 'ack'
 # Wrong SHA1 in Homebrew package
