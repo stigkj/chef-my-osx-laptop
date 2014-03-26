@@ -463,6 +463,11 @@ end
 
 # TODO Make printing as black/white default
 
+homebrew_cask 'beamer' do
+  subdir 'Media'
+end
+# TODO load license from ~/Dropbox/licenses.txt
+
 dmg_package 'Spotify' do
   source 'http://download.spotify.com/Spotify.dmg'
   destination '/Applications/Media/'
@@ -481,12 +486,6 @@ end
 
 zip_app_package 'Picturesque' do
   source 'https://paddle-static.s3.amazonaws.com/downloads/software/picturesque.zip'
-  destination '/Applications/Media/'
-end
-# TODO load license from ~/Dropbox/licenses.txt
-
-zip_app_package 'Beamer' do
-  source 'https://www.macupdate.com/download/40987/Beamer.zip'
   destination '/Applications/Media/'
 end
 # TODO load license from ~/Dropbox/licenses.txt
