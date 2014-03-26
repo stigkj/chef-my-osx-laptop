@@ -1,3 +1,7 @@
+# Tap for installing GUI applications (dmg, pkg, etc.)
+homebrew_tap 'phinze/cask'
+# Tap with alternative versions of Casks
+homebrew_tap 'caskroom/versions'
 # Tap for installing binary packages
 homebrew_tap('homebrew/binary')
 # Tap for dvm
