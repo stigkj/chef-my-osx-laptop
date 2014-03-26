@@ -463,6 +463,10 @@ end
 
 # TODO Make printing as black/white default
 
+homebrew_cask 'miro-video-converter' do
+  subdir 'Media'
+end
+
 homebrew_cask 'beamer' do
   subdir 'Media'
 end
