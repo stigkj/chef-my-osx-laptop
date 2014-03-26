@@ -286,15 +286,25 @@ dmg_package 'PrinterDriver_MP760_105102' do
 end
 
 intellij_name = 'IntelliJ IDEA'
-intellij_version = ' 13 EAP'
-intellij_url_name = 'ideaIU'
-intellij_url_version = '-134.1445'
-dmg_package "#{intellij_name}#{intellij_version}" do
+intellij_version = '13'
+intellij_url_name = 'ideaIU-'
+intellij_url_version = '13.1.1'
+intellij_volumes_dir = "#{intellij_name} 13"
+dmg_package "#{intellij_name} #{intellij_version}" do
+  volumes_dir "#{intellij_volumes_dir}"
   source "http://download.jetbrains.com/idea/#{intellij_url_name}#{intellij_url_version}.dmg"
-  destination '/Applications/Development/'
+  destination '/tmp/'
+  not_if { ::File.exists?("/Applications/Development/#{intellij_name} #{intellij_url_version}.app") }
 end
-file "/Applications/Development/#{intellij_name}#{intellij_version}.app/Contents/Info.plist" do
+file "/tmp/#{intellij_name} #{intellij_version}.app/Contents/Info.plist" do
   replace(/-agentlib.*-X/, "-X") if include? "-agentlib:yjpagent"
+  not_if { ::File.exists?("/Applications/Development/#{intellij_name} #{intellij_url_version}.app") }
+end
+ruby_block "move #{intellij_name} #{intellij_version} to /Applications/Development" do
+  block do
+    FileUtils.mv "/tmp/#{intellij_name} #{intellij_version}.app", "/Applications/Development/#{intellij_name} #{intellij_url_version}.app"
+  end
+  not_if { ::File.exists?("/Applications/Development/#{intellij_name} #{intellij_url_version}.app") }
 end
 
 ## TODO IntelliJ plugins
