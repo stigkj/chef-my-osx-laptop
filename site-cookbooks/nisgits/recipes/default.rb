@@ -530,7 +530,7 @@ end
 #   * Prey (preyproject.com) for tracking devices (phones, computers, etc)
 #   * localtunnel (expose local web server on internet https://github.com/progrium/localtunnel)
 #   * Little Snitch (application firewall http://www.obdev.at/products/littlesnitch/index.html)
-#   * git-sweep (remove remote branches merged into master)
+#   * git-sweep (remove remote branches merged into master https://github.com/arc90/git-sweep)
 #   * maid (cleans up files, Hazel for hackers)
 #   * httpie (command line http client)
 #   * setup environment variables in /etc/launchd.conf (look at http://apple.stackexchange.com/questions/64916/defining-environment-variables-with-launchd-launchctl/64917#64917)
