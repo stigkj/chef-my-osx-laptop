@@ -285,6 +285,10 @@ dmg_package 'PrinterDriver_MP760_105102' do
   package_id 'jp.co.canon.pkg.MP760-105102'
 end
 
+homebrew_cask 'java' do
+  subdir 'Development'
+end
+
 intellij_name = 'IntelliJ IDEA'
 intellij_version = '13'
 intellij_url_name = 'ideaIU-'
@@ -520,8 +524,8 @@ end
 #   * Mou (Nice Markdown editor http://mouapp.com)
 #   * Synergy (synergy-foss.org)
 #   * HouseMD (jvm diagnosing tool ala BTrace, install through jenvjjkkjkkj https://github.com/CSUG/HouseMD)
-#   * Java (1.6 & 1.7) with source
-#     * Download from Developer Connection with adc_download.sh
+#   * Java (1.6, 1.7, 1.8) with source
+#     * Use brew cask install java6/java7/java8
 #   * Shortcat (http://updates.shortcatapp.com/v0.3.6/Shortcat.app.zip)
 #   * Prey (preyproject.com) for tracking devices (phones, computers, etc)
 #   * localtunnel (expose local web server on internet https://github.com/progrium/localtunnel)
