@@ -610,7 +610,7 @@ end
 #   * Magic Launch (launch rules for files http://www.metakine.com/products/magiclaunch)
 #   * pass (command line password manager http://zx2c4.com/projects/password-store)
 #   * QuickLook plugins
-#     * QLColorCode (github/n8grey/QLColorCode)
+#     * https://github.com/sindresorhus/quick-look-plugins
 #     * MMD-QuickLook (github/ttscoff/MMD-QuickLook)
 #
 # TODO look at http://babushka.me
