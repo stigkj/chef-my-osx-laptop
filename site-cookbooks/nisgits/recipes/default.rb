@@ -489,11 +489,6 @@ end
 
 # TODO install:
 #   * MPlayer OSX extended (zipapp)
-#   * Beyond Compare via WineBottler
-#     * alias bc3='open -n -a /Applications/Beyond\ Compare.app'
-#     * Remove this key from its Info.plist:
-#       <key>WineProgramArguments</key>
-#       <string></string>
 #   * http://lokiware.info/Attachment-Tamer
 #   * Turn off local backup
 #   * Look at all bought software and in old backups of installed software
@@ -508,7 +503,6 @@ end
 #   * PopClip (select text and do many things with it (http://pilotmoon.com/popclip))
 #   * Play (brew install play)
 #   * Scala/sbt (brew install *)
-#   * Fantastical
 #   * na ('next actions', looking up actions from todo.taskpaper files, etc http://brettterpstra.com/projects/na)
 #   * Haroopad (markdown editor w/live preview++) http://pad.haroopress.com/user.html)
 #   * planter (intended text file --> directory tree with files, http://brettterpstra.com/projects/planter)
