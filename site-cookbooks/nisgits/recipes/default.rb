@@ -432,6 +432,10 @@ homebrew_cask 'mplayer-osx-extended' do
   subdir 'Media'
 end
 
+homebrew_cask 'mpv' do
+  subdir 'Media'
+end
+
 homebrew_cask 'miro-video-converter' do
   subdir 'Media'
 end
