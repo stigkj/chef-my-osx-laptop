@@ -194,15 +194,7 @@ dmg_package 'Google Chrome' do
   checksum '7daa2dc5c46d9bfb14f1d7ff4b33884325e5e63e694810adc58f14795165c91a'
 end
 
-zip_app_package 'Fantastical' do
-  source 'http://cdn.flexibits.com/Fantastical_1.3.9.zip'
-end
-
-dmg_package 'Dropbox' do
-  volumes_dir 'Dropbox Installer'
-  source 'http://www.dropbox.com/download?plat=mac'
-  checksum 'b4ea620ca22b0517b75753283ceb82326aca8bc3c86212fbf725de6446a96a13'
-end
+homebrew_cask 'dropbox'
 
 ruby_block 'stop chef run if Dropbox is not setup' do
   block do
@@ -211,40 +203,21 @@ ruby_block 'stop chef run if Dropbox is not setup' do
   not_if { ::File.exists?('/Users/stiklepp/Dropbox') }
 end
 
-remote_file "#{Chef::Config[:file_cache_path]}/slate-latest.tar.gz" do
-  source 'http://slate.ninjamonkeysoftware.com/versions/slate-latest.tar.gz'
-  action :create_if_missing
-  not_if { ::File.exists?('/Applications/Slate.app') }
-end
-bash 'extract slate to /Applications' do
-  code <<-EOH
-    echo 'extract slate to /Applications'
-    tar -C /Applications/ -x -f #{Chef::Config[:file_cache_path]}/slate-latest.tar.gz
-    EOH
-  not_if { ::File.exists?('/Applications/Slate.app') }
-end
-
 dmg_package 'handyLock' do
   volumes_dir 'handyLock v1.0.5.01'
   source 'https://s3.amazonaws.com/netputing/handyLock/handyLock+v1.0.5.dmg'
 end
 
-dmg_package 'A Better Finder Rename 9' do
-  source 'http://www.publicspace.net/download/ABFRX9.dmg'
-  accept_eula true
-end
-
-zip_app_package '1Password' do
-  source 'https://d13itkw33a7sus.cloudfront.net/dist/1P/mac/1Password-3.8.20.zip'
-end
-
-zip_app_package 'Alfred 2' do
-  source 'http://cachefly.alfredapp.com/Alfred_2.0.3_187.zip'
-end
-
-dmg_package 'Sublime Text' do
-  source 'http://c758482.r82.cf2.rackcdn.com/Sublime%20Text%20Build%203021.dmg'
-end
+homebrew_cask 'cakebrew'
+homebrew_cask 'launchrocket'
+homebrew_cask 'fantastical'
+homebrew_cask 'slate'
+# TODO other options instead of slate:
+# * http://mjolnir.io
+homebrew_cask 'a-better-finder-rename'
+homebrew_cask 'onepassword3'
+homebrew_cask 'alfred'
+homebrew_cask 'sublime-text-dev'
 link "#{ENV['HOME']}/Dropbox/bin/subl" do
   to '/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl'
 end
@@ -256,35 +229,15 @@ end
 #  - Tern (JavaScript code completion server, https://github.com/marijnh/tern_for_sublime)
 #  - CheckBounce (OS X spell checking https://github.com/phyllisstein/CheckBounce)
 
-dmg_package 'Texts' do
-  source 'http://www.texts.io/Texts-0.13.dmg'
-end
-
-zip_app_package 'Stay' do
-  source 'http://cordlessdog.com/stay/versions/Stay%201.2.1.zip'
-end
-
-dmg_package 'WineBottler' do
-  volumes_dir 'WineBottler Combo'
-  source 'http://mirrors.nolabelstudios.com/mikesmassivemess/files/WineBottlerCombo_1.2.5.dmg'
-end
-
-dmg_package 'Wine' do
-  volumes_dir 'WineBottler Combo'
-  source 'http://mirrors.nolabelstudios.com/mikesmassivemess/files/WineBottlerCombo_1.2.5.dmg'
-end
+homebrew_cask 'texts'
+homebrew_cask 'stay'
 
 dmg_package 'Disk Order' do
   source 'http://likemac.ru/download/disk-order_ub.dmg'
 end
 
-dmg_package 'FreeMind' do
-  source 'http://prdownloads.sourceforge.net/freemind/FreeMind_1.0.0.dmg?download'
-end
-
-zip_app_package 'AppCleaner' do
-  source 'http://www.freemacsoft.net/downloads/AppCleaner_2.2.zip'
-end
+homebrew_cask 'freemind'
+homebrew_cask 'appcleaner'
 
 # Canon MP760 printer driver
 dmg_package 'PrinterDriver_MP760_105102' do
