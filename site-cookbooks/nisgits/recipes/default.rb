@@ -441,6 +441,12 @@ homebrew_cask 'beamer' do
 end
 # TODO load license from ~/Dropbox/licenses.txt
 
+dmg_package 'Narrative Uploader' do
+  volumes_dir 'Narrative'
+  source 'http://dl.getnarrative.com/appcast/installers/NarrativeUploader.dmg'
+  destination '/Applications/Media/'
+end
+
 dmg_package 'Spotify' do
   source 'http://download.spotify.com/Spotify.dmg'
   destination '/Applications/Media/'
