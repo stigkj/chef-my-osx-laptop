@@ -228,6 +228,8 @@ end
 #  - SublimeXiki (Xiki in the editor, https://github.com/lunixbochs/SublimeXiki)
 #  - Tern (JavaScript code completion server, https://github.com/marijnh/tern_for_sublime)
 #  - CheckBounce (OS X spell checking https://github.com/phyllisstein/CheckBounce)
+#  - Web Inspector (debug javascript in Sublime http://sokolovstas.github.io/SublimeWebInspector)
+#  - Run javascript in browser (https://github.com/sindresorhus/sublime-jsrun)
 
 homebrew_cask 'texts'
 homebrew_cask 'stay'
