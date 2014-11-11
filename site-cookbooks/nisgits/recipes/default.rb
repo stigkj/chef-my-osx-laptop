@@ -365,6 +365,7 @@ zip_app_package 'HipChat' do
   destination '/Applications/Network/'
 end
 
+# TODO use gmvault instead? (http://gmvault.org)
 zip_app_package 'CloudPull' do
   source 'http://downloads.goldenhillsoftware.com/cloudpull/CloudPull.zip'
   destination '/Applications/Network/'
