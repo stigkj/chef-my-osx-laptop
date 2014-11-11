@@ -9,11 +9,14 @@ homebrew_tap 'fnichol/dvm'
 # Needs both taps for sitespeed.io
 homebrew_tap 'tobli/browsertime'
 homebrew_tap 'sitespeedio/sitespeedio'
+# Adds searchable descriptions for formulas
+homebrew_tap 'telemachus/homebrew-desc'
 
 package 'ack'
 # Wrong SHA1 in Homebrew package
 package 'agedu'                 # Reports on disk space used, together with the age of these files
 package 'atdtool'               # Tool for checking spelling, grammar and style in texts
+package 'brew-desc'             # Adds searchable descriptions for formulas
 package 'brew-cask'             # Install GUI Mac applications
 package 'brew-pip'              # Install python packages through brew pip .... NB! Must link pip into /usr/bin for this to work
 package 'direnv'                # A shell extension that loads different environment variables depending on your path
