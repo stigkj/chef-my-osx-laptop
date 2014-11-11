@@ -59,6 +59,7 @@ package 'socat'                 # A multipurpose network tool
 package 'ssldump'
 package 'sslscan'
 package 'task-spooler'          # Easily queue jobs from the terminal
+# TODO use the_platinum_searcher instead? https://github.com/monochromegane/the_platinum_searcher
 package 'the_silver_searcher'   # Ag, a very fast code-searching tool, faster than ack
 package 'tig'
 package 'trash'                 # Moves files/folders to the OS X trash (TODO alias to rm?)
