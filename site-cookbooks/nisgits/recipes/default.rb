@@ -68,6 +68,8 @@ package 'vcprompt'              # Prints a string describing the current directo
 package 'wget'
 package 'zsh'
 
+## TODO check out box.com's sync platform. Use the unlimited personal account from FINN
+
 ## TODO convert to use Kitchenplan (http://kitchenplan.github.io/kitchenplan)
 
 ## TODO use mackup for sync of application configuration
