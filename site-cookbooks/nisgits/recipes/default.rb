@@ -473,37 +473,90 @@ zip_app_package 'Picturesque' do
 end
 # TODO load license from ~/Dropbox/licenses.txt
 
+# TODO backup to cloud (or something)
+#   * camlistore (http://camlistore.org)
+#   * BitTorrent Sync (http://www.bittorrent.com/sync)
+#   * Google Drive
+#   * Space Monkey
+#   * CrashPlan
+#   * JottaCLoud
+#   * Rsync.net
+#   * http://syncthing.net
+#   * http://sparkleshare.org
+#   * What to use for photos: Picturelife, Adobe Revel, Flickr or Google Drive/G+ ?
+
 # TODO install:
-#   * MPlayer OSX extended (zipapp)
+#   * Bonjour Browser (http://www.tildesoft.com/#BonjourBrowser)
+#   * Video players
+#     * MPlayer OSX (brew cask install mplayer-osx-extended/mplayerx)
+#     * niceplayer (https://code.google.com/p/niceplayer)
+#   * Little Snitch (firewall++ http://www.obdev.at/products/littlesnitch/index.html)
+#   * Hands Off (monitor/prevent network/disk access https://www.oneperiodic.com/products/handsoff)
 #   * http://lokiware.info/Attachment-Tamer
+#   * flamingo (IM app supporting XMPP http://flamingo.im)
 #   * Turn off local backup
 #   * Look at all bought software and in old backups of installed software
 #   * resty (curl -L http://github.com/micha/resty/raw/master/resty > resty)
-#   * Gmvault (http://gmvault.org)
 #   * Yeoman (yeoman.io)
+#   * App Tamer (slow down or stop apps http://www.stclairsoft.com/AppTamer)
+#   * datamash (simple calculation on text files http://www.gnu.org/software/datamash)
 #   * Automatic complete-word and list-choices for zsh (https://github.com/hchbaw/auto-fu.zsh)
 #   * Zaw (zsh widget that can select from anything http://blog.patshead.com/2013/04/more-powerful-zsh-history-search-using-zaw.html)
 #   * zsh-dwim (a do-what-I-mean plugin for zsh)
 #   * shstack (peristent stacks of text that can be used in shell scripts https://github.com/oknowton/shstack)
-#   * Yoke (http://cziko.github.io/yoke)
+#   * Yoke (run ruby code everywhere http://cziko.github.io/yoke)
 #   * PopClip (select text and do many things with it (http://pilotmoon.com/popclip))
+#   * Unarchiver (extracts a lot of file formats http://unarchiver.c3.cx/unarchiver)
 #   * Play (brew install play)
 #   * Scala/sbt (brew install *)
+#   * fseventer (shows file system changes graphically http://fernlightning.com/doku.php?id=software%3afseventer%3astart)
 #   * na ('next actions', looking up actions from todo.taskpaper files, etc http://brettterpstra.com/projects/na)
-#   * Haroopad (markdown editor w/live preview++) http://pad.haroopress.com/user.html)
+#   * Markdown editors/viewers
+#     * Haroopad (markdown editor w/live preview++ http://pad.haroopress.com/user.html)
+#     * Erato (markdown editor w/live preview http://9muses.se/erato)
+#     * Mou (Nice Markdown editor http://mouapp.com)
+#     * LightPaper (free kkkkdown editor with preview http://clockworkengine.com/lightpaper-mac)
 #   * planter (intended text file --> directory tree with files, http://brettterpstra.com/projects/planter)
 #   * qq (archive of files with questions and answers, http://brettterpstra.com/projects/quickquestion)
-#   * What to use for photos: Picturelife, Adobe Revel, Flickr or Google Drive?
+#   * Lyn (Image browser http://www.lynapp.com)
+#   * Picasa (Image browser)
+#   * Enable hack to get selection of text in Preview
+#   * f-spot (Image browser http://f-spot.org)
+#   * darktable (Image processing http://darkspot.org)
+#   * How to handle photo syncing between all devices?
+#     * http://andreadekker.com/our-digital-photo-albums-how-i-manage-photos/
+#     * http://homegrownsw.com/camerasync
+#     * http://www.macstories.net/tutorials/my-photo-management-workflow-early-2014
+#     * Digital asset management solutions:
+#       * http://notredam.org
+#       * https://www.phraseanet.com
+#       * http://community.southpawtech.com
+#     * Get ideas from this: http://www.resourcespace.org
 #   * foundapp.com (search across the local machine and cloud services like gmail, dropbox, evernote, etc)
+#   * CatchApp (catch up with everything https://getcatchapp.com/hojoki)
 #   * Send to Kindle
-#   * Forklift 2
+#   * MacCleanse 4 (http://www.koingosw.com/downloads/getmirrorfile.php?path=%2Fdownloads%2Fmacintosh%2Fmac_cleanse.dmg)
+#   * Timing of application usage:
+#     * http://timingapp.com
+#     * http://timetrack.bloop.info
+#     * http://www.timecamp.com/en/tour-desktop
+#     * http://manytricks.com/timesink
+#     * https://github.com/gurgeh/selfspy
+#     * http://www.activetimer.com
+#     * http://www.slifelabs.com
+#     * https://www.rescuetime.com
+#   * Permute (try out this media converter vs Miro Video Converter http://www.fuelcollective.com/permute)
+#   * Finder replacement
+#     * Forklift (http://www.binarynights.com/forklift)
+#     * Path Finder
+#     * Fast Commander (http://osx-fastcommander.appspot.com)
+#     * Disk Order (http://www.likemac.ru/english)
 #   * Kindle for Mac
 #   * Repo manager for git (https://github.com/robertwahler/repo_manager)
 #   * gcalcli Chttps://github.com/insanum/gcalcli)
 #   * CloudApp (file sharing http://getcloudapp.com also in App Store)
 #     * install cli too
 #     * gifify was also interesting (mov -> gif -> cloud, on github), is placed in ~/Dropbox/bin
-#   * Mou (Nice Markdown editor http://mouapp.com)
 #   * Synergy (synergy-foss.org)
 #   * HouseMD (jvm diagnosing tool ala BTrace, install through jenvjjkkjkkj https://github.com/CSUG/HouseMD)
 #   * Java (1.6, 1.7, 1.8) with source
@@ -513,8 +566,11 @@ end
 #   * localtunnel (expose local web server on internet https://github.com/progrium/localtunnel)
 #   * Little Snitch (application firewall http://www.obdev.at/products/littlesnitch/index.html)
 #   * git-sweep (remove remote branches merged into master https://github.com/arc90/git-sweep)
+#   * git-spark (show git graphs as sparklines https://github.com/kablamo/git-spark)
 #   * maid (cleans up files, Hazel for hackers)
 #   * httpie (command line http client)
+#   * profanity (command line xmpp client http://www.profanity.im)
+#   * godiff (a file/directory diff-like comparision tool with HTML output https://github.com/spcau/godiff)
 #   * setup environment variables in /etc/launchd.conf (look at http://apple.stackexchange.com/questions/64916/defining-environment-variables-with-launchd-launchctl/64917#64917)
 #   * brunch (a lightweight approach to building HTML5 applications, http://brunch.io)
 #   * deployd (Easy API development: http://deployd.com)
@@ -522,6 +578,7 @@ end
 #   * HoRNDIS: USB tethering driver for Mac OS X (http://joshuawise.com/horndis)
 #   * Choosy (choose which browser to open a link in at "runtime")
 #   * Postgres.app (http://postgresapp.com)
+#   * goreplace (search/replace written in go https://github.com/piranha/goreplace)
 #   * boom (http load generator, ala ApacheBench https://github.com/rakyll/boom)
 #   * xiproxy (Transparent HTTP proxy for using the xip.io domain https://github.com/rashidkpc/xiproxy)
 #   * vimpager (a better pager, replacement for less.sh https://github.com/rkitover/vimpager)
@@ -540,7 +597,11 @@ end
 #     This is the content:
 #     #!/bin/sh
 #     exec ssh "${0##*/}" "$@"
+#   * SixtyFour (memory optimizer http://getsixtyfour.com)
 #   * ssh-chain (easy ssh chaining https://github.com/ryancdotorg/ssh-chain)
+#   * Infinit (easy and free file sharing using P2P https://www.infinit.io)
+#   * Sinus (personal assistant http://raffael.me/sinus)
+#   * Quicksand (sync 50 latest changed files to cloud http://www.zibity.com/quicksand.html)
 #   * redsocks (transparent socks redirector http://darkk.net.ru/redsocks)
 #   * toggle-extra (toggles OSX menu icons on/off https://github.com/adamv/toggle-extra)
 #   * GitHub notifier (https://github.com/ctshryock/GithubNotifier, https://github.com/psionides/gitifier)
@@ -560,6 +621,9 @@ end
 #      * License on ~/Dropbox/license.txt
 #   * spring boot cli (fast creation of Spring apps http://projects.spring.io/spring-boot/docs/README.html)
 #   * PostgreSQL (http://postgresapp.com)
+#   * repl (gives a repl for any non-interactive command like git http://defunkt.io/repl)
+#   * cheat (command line for printing out cheat sheets http://cheat.errtheblog.com)
+#   * pulls/issues (GitHub pull request/issues utilities https://github.com/dotcloud/gordon)
 #   * Pinegrow (looks like a good web editor http://pinegrow.com)
 #   * sack (better ack/ag/grep https://github.com/sampson-chen/sack)
 #   * nice setup of the shell (https://github.com/barryclark/bashstrap)
@@ -571,8 +635,12 @@ end
 #   * Cloud Mate (control the files in iCloud http://www.rwe-uk.com/app/cloud-mate)
 #   * ngrok (expose local http/tcp services to internet https://ngrok.com)
 #   * Look at using Middleman for blog (http://middlemanapp.com)
+#   * Look at using Hugo for blog (http://hugo.spf13.com)
+#   * Maybe use livefyre for blog comments (http://web.livefyre.com/comments)
 #   * Use devproxy/pow (https://github.com/myfreeweb/devproxy http://pow.cx)
 #   * gost (gist client written in go https://github.com/MaximeD/gost)
+#   * hub (makes git work better with github https://hub.github.com)
+#   * Bartender (tidy up menu bar apps http://www.macbartender.com)
 #   * Mouse and keyboard sharing:
 #     * http://www.keyboard-and-mouse-sharing.com
 #     * http://avatron.com/apps/air-display
@@ -591,6 +659,8 @@ end
 #     * brew-services (https://gist.github.com/4622739)
 #   * Magic Launch (launch rules for files http://www.metakine.com/products/magiclaunch)
 #   * pass (command line password manager http://zx2c4.com/projects/password-store)
+#   * A lot of free fonts (http://www.macappware.com/software/free-fonts https://s3.amazonaws.com/128bittech/free/update/FreeFonts-102updatedfonts.zip)
+#   * Nice prompt for backgrounded jobs (http://micah.cowan.name/blog/projects/promptjobs)
 #   * QuickLook plugins
 #     * https://github.com/sindresorhus/quick-look-plugins
 #     * MMD-QuickLook (github/ttscoff/MMD-QuickLook)
@@ -673,6 +743,7 @@ end
 #   jazor
 #   lunchy (nice wrapper for launchctl)
 #   github_cli (Complete API v3 coverage from command line: https://github.com/peter-murach/github_cli)
+#   building (creating Docker container for any app using Heroku Buildpacks https://github.com/centurylinklabs/building)
 
 # TODO
 # npms:
@@ -683,7 +754,7 @@ end
 #   buster.js         # A node/browser testing toolkit
 #   recess            # Twitter's code quality tool for CSS
 #   testem            # A nice test runner for javascript
-#   http-console      # HTTP REPL :-)
+#   http-console      # HTTP REPL :-) (or https://github.com/mattn/http-gonsole)
 #   http-server       # A simple http server
 #   replace           # A search&replace tool (https://github.com/harthur/replace)
 
