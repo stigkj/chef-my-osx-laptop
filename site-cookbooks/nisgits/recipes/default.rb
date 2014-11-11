@@ -77,6 +77,9 @@ package 'zsh'
 ## TODO
 # All git checkouts should get a specific user and email setup with git config
 
+## TODO use an email management service (sanebox.com, mailstrom.co, altomail.com, unroll.me, )
+# or a local one: blinkmail (http://www.blinkmailapp.com)
+
 ## TODO
 
 #WARNING: The locate database (/var/db/locate.database) does not exist.
